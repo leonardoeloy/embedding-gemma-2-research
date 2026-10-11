@@ -1,0 +1,27 @@
+{
+  "observed_at": "2026-10-11T20:49:05.966378+00:00",
+  "pci": [
+    "03:00.0 VGA compatible controller [0300]: Intel Corporation Battlemage G31 [Intel Graphics] [8086:e223]",
+    "08:00.0 VGA compatible controller [0300]: Intel Corporation Battlemage G31 [Intel Graphics] [8086:e223]",
+    "80:00.0 VGA compatible controller [0300]: Advanced Micro Devices, Inc. [AMD/ATI] Granite Ridge [Radeon Graphics] [1002:13c0] (rev c2)"
+  ],
+  "torch": "2.8.0+xpu",
+  "xpu_devices": [
+    {
+      "index": 0,
+      "name": "Intel(R) Graphics [0xe223]",
+      "memory": [
+        32530182144,
+        32530182144
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Intel(R) Graphics [0xe223]",
+      "memory": [
+        32530182144,
+        32530182144
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "script_sha256": "d293ac601596207e74e84736a7c2ffffa0df26de2bafd615788c098eeabfa663",
+  "dataset": {
+    "source": "orionweller/NevIR",
+    "revision": "6263585072ce3b435ed09658613553fbf4e74184",
+    "split": "test",
+    "source_sha256": "5eb79ec32e82ff17ef6c2f47b75baca182013053ed74672d426bbc338af05d67",
+    "license": "MIT (source dataset card)",
+    "pairs": 1383,
+    "documents": 2766,
+    "queries": 2766,
+    "sha256": {
+      "queries.jsonl": "af298bdb80f0eb958ba93d9f8c34ad0844802057d194fca808e04f1d1fec8f16",
+      "documents.jsonl": "ab4343943560dad4186f9415fc255a6993f766c3f0b56bfdbc505ed115f389fc"
+    }
+  },
+  "bootstrap_unit": "original document/query pair",
+  "bootstrap_resamples": 2000
+}

@@ -1,0 +1,53 @@
+{
+  "gemma": {
+    "repo": "google/embeddinggemma-2",
+    "revision": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+    "verified": true,
+    "weights": [
+      {
+        "file": "model.safetensors",
+        "bytes": 1488915288,
+        "expected_sha256": "197a32965d4b1105faf060417baa899e193fb73cd401f42ec9295234d5553d79",
+        "actual_sha256": "197a32965d4b1105faf060417baa899e193fb73cd401f42ec9295234d5553d79"
+      }
+    ]
+  },
+  "wemm": {
+    "repo": "tencent/WeMM-Embedding-2B",
+    "revision": "bbd6cd4bf52cfc6716f752a2df80b2706720bd95",
+    "verified": true,
+    "weights": [
+      {
+        "file": "model.safetensors",
+        "bytes": 5441695216,
+        "expected_sha256": "e1a1ad752808c26965aa97d37bf4a9bca71d838513f41e83790cb1e71cac6e59",
+        "actual_sha256": "e1a1ad752808c26965aa97d37bf4a9bca71d838513f41e83790cb1e71cac6e59"
+      }
+    ]
+  },
+  "ovis": {
+    "repo": "ATH-MaaS/Ovis-Omni-Embedding-3B",
+    "revision": "9726d1ad56420a07ba745aafaf5d7030963cda4e",
+    "verified": true,
+    "weights": [
+      {
+        "file": "model/model-00001-of-00003.safetensors",
+        "bytes": 4985032488,
+        "expected_sha256": "3859069435a04d363906c0ad05a5fcf480917225de6686f3a37489a27241d9ad",
+        "actual_sha256": "3859069435a04d363906c0ad05a5fcf480917225de6686f3a37489a27241d9ad"
+      },
+      {
+        "file": "model/model-00002-of-00003.safetensors",
+        "bytes": 4999949856,
+        "expected_sha256": "2ab4c3c8ab840be3614be89ac5521e6f6df48dce62a03adfac31cc83f0209ce4",
+        "actual_sha256": "2ab4c3c8ab840be3614be89ac5521e6f6df48dce62a03adfac31cc83f0209ce4"
+      },
+      {
+        "file": "model/model-00003-of-00003.safetensors",
+        "bytes": 1089579000,
+        "expected_sha256": "6eebd641ef74ae7f865f8ca817ccbf3c6fe20a1b9107f8085f2ec79b2b519556",
+        "actual_sha256": "6eebd641ef74ae7f865f8ca817ccbf3c6fe20a1b9107f8085f2ec79b2b519556"
+      }
+    ]
+  }
+}

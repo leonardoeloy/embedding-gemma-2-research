@@ -1,0 +1,47 @@
+{
+  "repo": "orionweller/NevIR",
+  "revision": "6263585072ce3b435ed09658613553fbf4e74184",
+  "card": {
+    "language_creators": [
+      "crowdsourced"
+    ],
+    "language": [
+      "en"
+    ],
+    "license": "mit",
+    "multilinguality": [
+      "monolingual"
+    ],
+    "size_categories": [
+      "1K<n<10K"
+    ],
+    "pretty_name": "NevIR",
+    "tags": [
+      "negation",
+      "information_retrieval",
+      "IR"
+    ]
+  },
+  "files": [
+    {
+      "name": ".gitattributes",
+      "size": 2265
+    },
+    {
+      "name": "README.md",
+      "size": 4731
+    },
+    {
+      "name": "test.jsonl",
+      "size": 2271154
+    },
+    {
+      "name": "train.jsonl",
+      "size": 1536840
+    },
+    {
+      "name": "validation.jsonl",
+      "size": 367595
+    }
+  ]
+}

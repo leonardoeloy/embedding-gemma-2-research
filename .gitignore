@@ -1,0 +1,9 @@
+.venv/
+models/
+__pycache__/
+*.log
+sources/*-metadata/
+.cache/
+
+RESUME_HANDOFF.md
+.DS_Store

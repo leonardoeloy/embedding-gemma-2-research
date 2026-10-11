@@ -1,0 +1,15 @@
+{
+  "reason": "Xet log contains 403/retry errors and connection-struggling notices; direct pinned HTTP range probe returned 206 with 1024 bytes in 2.09 seconds",
+  "stopped": [
+    {
+      "pid": 247193,
+      "command": "/home/darkstar/maxi/embeddinggemma2-constraint-study-20261011/.venv/bin/python .venv/bin/hf download ATH-MaaS/Ovis-Omni-Embedding-3B --revision 9726d1ad56420a07ba745aafaf5d7030963cda4e --local-dir models/ovis",
+      "still_present": false
+    },
+    {
+      "pid": 247323,
+      "command": "/home/darkstar/maxi/embeddinggemma2-constraint-study-20261011/.venv/bin/python .venv/bin/hf download tencent/WeMM-Embedding-2B --revision bbd6cd4bf52cfc6716f752a2df80b2706720bd95 --local-dir models/wemm",
+      "still_present": false
+    }
+  ]
+}

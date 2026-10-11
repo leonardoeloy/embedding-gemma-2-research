@@ -1,0 +1,12 @@
+{
+  "file": "models/ovis/Adaptor/M_d128.npy",
+  "sha256": "817b2a7a3106e35a3d829f4b440cefbda64ed7137e02077837fc295d4daa9387",
+  "shape": [
+    2048,
+    2048
+  ],
+  "recipe": "(embedding @ M)[:, :D], then L2 normalize",
+  "dtype": "float32",
+  "queries_sha256": "07bf9fbac67a1bb6f46fd5ea20ea18e802a11a1997aae0ae62ad7b9ecf8dc5f6",
+  "documents_sha256": "adae3d5a05111e8317d111a68157dc5083233e5ed1040ff83778d47916f51d2f"
+}

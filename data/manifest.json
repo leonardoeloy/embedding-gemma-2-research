@@ -1,0 +1,12 @@
+{
+  "seed": 20261011,
+  "documents": 1152,
+  "queries": 1008,
+  "constraint_queries": 864,
+  "control_queries": 144,
+  "worlds": 12,
+  "sha256": {
+    "queries.jsonl": "c7b19b933f2e10dbdd749f0701391c4793cb8d055e0d900959bc4523633a98cf",
+    "documents.jsonl": "e8bdd20d22701834b2d3dd12836fc4ff88556bad4b4e16c9899b8514277217ea"
+  }
+}

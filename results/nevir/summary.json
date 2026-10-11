@@ -1,0 +1,77 @@
+{
+  "bm25": {
+    "queries": 2766,
+    "pairs": 1383,
+    "strict_query_accuracy": 0.406001446131598,
+    "strict_pair_accuracy": 0.039045553145336226,
+    "ties": 424,
+    "query_accuracy_95ci": [
+      0.3929862617498192,
+      0.418293564714389
+    ],
+    "pair_accuracy_95ci": [
+      0.02964569775849602,
+      0.049891540130151846
+    ]
+  },
+  "random": {
+    "queries": 2766,
+    "pairs": 1383,
+    "strict_query_accuracy": 0.4920462762111352,
+    "strict_pair_accuracy": 0.24945770065075923,
+    "ties": 0,
+    "query_accuracy_95ci": [
+      0.47216196673897326,
+      0.5104934924078091
+    ],
+    "pair_accuracy_95ci": [
+      0.22704266088214028,
+      0.27187274041937814
+    ]
+  },
+  "gemma": {
+    "queries": 2766,
+    "pairs": 1383,
+    "strict_query_accuracy": 0.5513376717281273,
+    "strict_pair_accuracy": 0.1373825018076645,
+    "ties": 0,
+    "query_accuracy_95ci": [
+      0.5408532176428055,
+      0.5625451916124368
+    ],
+    "pair_accuracy_95ci": [
+      0.12002892263195951,
+      0.1561822125813449
+    ]
+  },
+  "wemm": {
+    "queries": 2766,
+    "pairs": 1383,
+    "strict_query_accuracy": 0.5856832971800434,
+    "strict_pair_accuracy": 0.19667389732465654,
+    "ties": 0,
+    "query_accuracy_95ci": [
+      0.57411424439624,
+      0.5968908170643529
+    ],
+    "pair_accuracy_95ci": [
+      0.17642805495300073,
+      0.21691973969631237
+    ]
+  },
+  "ovis": {
+    "queries": 2766,
+    "pairs": 1383,
+    "strict_query_accuracy": 0.4985538684020246,
+    "strict_pair_accuracy": 0.12147505422993492,
+    "ties": 42,
+    "query_accuracy_95ci": [
+      0.48553868402024586,
+      0.5115690527838034
+    ],
+    "pair_accuracy_95ci": [
+      0.10484454085321765,
+      0.13884671005061452
+    ]
+  }
+}

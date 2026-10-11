@@ -1,0 +1,3138 @@
+{
+  "bm25": {
+    "constraint": {
+      "hit1": 0.5150462962962963,
+      "hit3": 0.8483796296296297,
+      "mrr": 0.6978767085537919,
+      "topical1": 0.8043981481481481,
+      "violation1": 0.3599537037037037,
+      "prefilter_hit1": 0.8113425925925926,
+      "postfilter1_hit1": 0.5150462962962963,
+      "postfilter3_hit1": 0.7326388888888888,
+      "postfilter3_empty": 0.09606481481481481,
+      "n": 864
+    },
+    "control": {
+      "hit1": 0.7708333333333334,
+      "hit3": 0.9791666666666666,
+      "mrr": 0.8706018518518519,
+      "topical1": 0.7708333333333334,
+      "violation1": 0.0,
+      "prefilter_hit1": 0.7708333333333334,
+      "postfilter1_hit1": 0.7708333333333334,
+      "postfilter3_hit1": 0.7708333333333334,
+      "postfilter3_empty": 0.0,
+      "n": 144
+    },
+    "paired_variant_success": 0.2222222222222222,
+    "failure_margins": {
+      "n": 419,
+      "median": 0.0,
+      "over_0.01": 126,
+      "ties": 293
+    },
+    "breakdowns": {
+      "family": {
+        "conjunction": {
+          "hit1": 0.2361111111111111,
+          "hit3": 0.5486111111111112,
+          "mrr": 0.46199570105820104,
+          "topical1": 0.6805555555555556,
+          "violation1": 0.6597222222222222,
+          "prefilter_hit1": 0.7916666666666666,
+          "postfilter1_hit1": 0.2361111111111111,
+          "postfilter3_hit1": 0.4652777777777778,
+          "postfilter3_empty": 0.3888888888888889
+        },
+        "negation": {
+          "hit1": 0.3958333333333333,
+          "hit3": 0.8541666666666666,
+          "mrr": 0.6301256613756614,
+          "topical1": 0.7916666666666666,
+          "violation1": 0.5,
+          "prefilter_hit1": 0.8263888888888888,
+          "postfilter1_hit1": 0.3958333333333333,
+          "postfilter3_hit1": 0.7638888888888888,
+          "postfilter3_empty": 0.08333333333333333
+        },
+        "numeric": {
+          "hit1": 0.4166666666666667,
+          "hit3": 0.7708333333333334,
+          "mrr": 0.6055555555555556,
+          "topical1": 0.8333333333333334,
+          "violation1": 0.5,
+          "prefilter_hit1": 0.7708333333333334,
+          "postfilter1_hit1": 0.4166666666666667,
+          "postfilter3_hit1": 0.6875,
+          "postfilter3_empty": 0.10416666666666667
+        },
+        "role_binding": {
+          "hit1": 0.4791666666666667,
+          "hit3": 0.9166666666666666,
+          "mrr": 0.7083333333333334,
+          "topical1": 0.9583333333333334,
+          "violation1": 0.5,
+          "prefilter_hit1": 0.9166666666666666,
+          "postfilter1_hit1": 0.4791666666666667,
+          "postfilter3_hit1": 0.9166666666666666,
+          "postfilter3_empty": 0.0
+        },
+        "temporal": {
+          "hit1": 0.8333333333333334,
+          "hit3": 1.0,
+          "mrr": 0.9166666666666666,
+          "topical1": 0.8333333333333334,
+          "violation1": 0.0,
+          "prefilter_hit1": 0.8333333333333334,
+          "postfilter1_hit1": 0.8333333333333334,
+          "postfilter3_hit1": 0.8333333333333334,
+          "postfilter3_empty": 0.0
+        },
+        "version": {
+          "hit1": 0.7291666666666666,
+          "hit3": 1.0,
+          "mrr": 0.8645833333333334,
+          "topical1": 0.7291666666666666,
+          "violation1": 0.0,
+          "prefilter_hit1": 0.7291666666666666,
+          "postfilter1_hit1": 0.7291666666666666,
+          "postfilter3_hit1": 0.7291666666666666,
+          "postfilter3_empty": 0.0
+        }
+      },
+      "style": {
+        "fields": {
+          "hit1": 0.4791666666666667,
+          "hit3": 0.8541666666666666,
+          "mrr": 0.6816798941798942,
+          "topical1": 0.7708333333333334,
+          "violation1": 0.375,
+          "prefilter_hit1": 0.7847222222222222,
+          "postfilter1_hit1": 0.4791666666666667,
+          "postfilter3_hit1": 0.7291666666666666,
+          "postfilter3_empty": 0.06944444444444445
+        },
+        "prose": {
+          "hit1": 0.5509259259259259,
+          "hit3": 0.8425925925925926,
+          "mrr": 0.7140735229276894,
+          "topical1": 0.8379629629629629,
+          "violation1": 0.3449074074074074,
+          "prefilter_hit1": 0.8379629629629629,
+          "postfilter1_hit1": 0.5509259259259259,
+          "postfilter3_hit1": 0.7361111111111112,
+          "postfilter3_empty": 0.12268518518518519
+        }
+      },
+      "phrasing": {
+        "0": {
+          "hit1": 0.5173611111111112,
+          "hit3": 0.8472222222222222,
+          "mrr": 0.6979993386243386,
+          "topical1": 0.8020833333333334,
+          "violation1": 0.3541666666666667,
+          "prefilter_hit1": 0.8125,
+          "postfilter1_hit1": 0.5173611111111112,
+          "postfilter3_hit1": 0.7291666666666666,
+          "postfilter3_empty": 0.10069444444444445
+        },
+        "1": {
+          "hit1": 0.5173611111111112,
+          "hit3": 0.8472222222222222,
+          "mrr": 0.6989914021164021,
+          "topical1": 0.8020833333333334,
+          "violation1": 0.3541666666666667,
+          "prefilter_hit1": 0.8125,
+          "postfilter1_hit1": 0.5173611111111112,
+          "postfilter3_hit1": 0.7291666666666666,
+          "postfilter3_empty": 0.10069444444444445
+        },
+        "2": {
+          "hit1": 0.5104166666666666,
+          "hit3": 0.8506944444444444,
+          "mrr": 0.6966393849206349,
+          "topical1": 0.8090277777777778,
+          "violation1": 0.3715277777777778,
+          "prefilter_hit1": 0.8090277777777778,
+          "postfilter1_hit1": 0.5104166666666666,
+          "postfilter3_hit1": 0.7395833333333334,
+          "postfilter3_empty": 0.08680555555555555
+        }
+      },
+      "polarity": {
+        "0": {
+          "hit1": 0.5509259259259259,
+          "hit3": 0.8402777777777778,
+          "mrr": 0.7174796075837743,
+          "topical1": 0.8009259259259259,
+          "violation1": 0.32175925925925924,
+          "prefilter_hit1": 0.8263888888888888,
+          "postfilter1_hit1": 0.5509259259259259,
+          "postfilter3_hit1": 0.7268518518518519,
+          "postfilter3_empty": 0.12268518518518519
+        },
+        "1": {
+          "hit1": 0.4791666666666667,
+          "hit3": 0.8564814814814815,
+          "mrr": 0.6782738095238096,
+          "topical1": 0.8078703703703703,
+          "violation1": 0.39814814814814814,
+          "prefilter_hit1": 0.7962962962962963,
+          "postfilter1_hit1": 0.4791666666666667,
+          "postfilter3_hit1": 0.7384259259259259,
+          "postfilter3_empty": 0.06944444444444445
+        }
+      }
+    },
+    "world_bootstrap_95ci": {
+      "hit1": [
+        0.4258969907407408,
+        0.5995659722222221
+      ],
+      "hit3": [
+        0.7951388888888888,
+        0.9004629629629629
+      ],
+      "mrr": [
+        0.6377327904541445,
+        0.7534485573743387
+      ],
+      "topical1": [
+        0.6620081018518519,
+        0.9351851851851851
+      ],
+      "violation1": [
+        0.3460648148148149,
+        0.3726851851851852
+      ],
+      "prefilter_hit1": [
+        0.6770543981481482,
+        0.9375
+      ],
+      "postfilter1_hit1": [
+        0.4258969907407408,
+        0.5995659722222221
+      ],
+      "postfilter3_hit1": [
+        0.6030092592592593,
+        0.8587962962962963
+      ],
+      "postfilter3_empty": [
+        0.07291666666666664,
+        0.11921296296296297
+      ]
+    }
+  },
+  "random": {
+    "constraint": {
+      "hit1": 0.21643518518518517,
+      "hit3": 0.5231481481481481,
+      "mrr": 0.4337411816578483,
+      "topical1": 0.5196759259259259,
+      "violation1": 0.5914351851851852,
+      "prefilter_hit1": 0.5023148148148148,
+      "postfilter1_hit1": 0.21643518518518517,
+      "postfilter3_hit1": 0.4027777777777778,
+      "postfilter3_empty": 0.18981481481481483,
+      "n": 864
+    },
+    "control": {
+      "hit1": 0.4791666666666667,
+      "hit3": 0.9236111111111112,
+      "mrr": 0.6943287037037036,
+      "topical1": 0.4791666666666667,
+      "violation1": 0.0,
+      "prefilter_hit1": 0.4791666666666667,
+      "postfilter1_hit1": 0.4791666666666667,
+      "postfilter3_hit1": 0.4791666666666667,
+      "postfilter3_empty": 0.0,
+      "n": 144
+    },
+    "paired_variant_success": 0.05787037037037037,
+    "failure_margins": {
+      "n": 677,
+      "median": 0.3646560311317444,
+      "over_0.01": 667,
+      "ties": 0
+    },
+    "breakdowns": {
+      "family": {
+        "conjunction": {
+          "hit1": 0.19444444444444445,
+          "hit3": 0.3819444444444444,
+          "mrr": 0.3813905423280423,
+          "topical1": 0.5763888888888888,
+          "violation1": 0.7083333333333334,
+          "prefilter_hit1": 0.4652777777777778,
+          "postfilter1_hit1": 0.19444444444444445,
+          "postfilter3_hit1": 0.3333333333333333,
+          "postfilter3_empty": 0.3125
+        },
+        "negation": {
+          "hit1": 0.2916666666666667,
+          "hit3": 0.625,
+          "mrr": 0.5104828042328042,
+          "topical1": 0.5208333333333334,
+          "violation1": 0.5,
+          "prefilter_hit1": 0.5555555555555556,
+          "postfilter1_hit1": 0.2916666666666667,
+          "postfilter3_hit1": 0.5138888888888888,
+          "postfilter3_empty": 0.0763888888888889
+        },
+        "numeric": {
+          "hit1": 0.25,
+          "hit3": 0.6458333333333334,
+          "mrr": 0.4870205026455026,
+          "topical1": 0.5555555555555556,
+          "violation1": 0.5069444444444444,
+          "prefilter_hit1": 0.4930555555555556,
+          "postfilter1_hit1": 0.25,
+          "postfilter3_hit1": 0.4722222222222222,
+          "postfilter3_empty": 0.05555555555555555
+        },
+        "role_binding": {
+          "hit1": 0.1875,
+          "hit3": 0.3819444444444444,
+          "mrr": 0.3784391534391534,
+          "topical1": 0.4861111111111111,
+          "violation1": 0.625,
+          "prefilter_hit1": 0.5486111111111112,
+          "postfilter1_hit1": 0.1875,
+          "postfilter3_hit1": 0.3402777777777778,
+          "postfilter3_empty": 0.3125
+        },
+        "temporal": {
+          "hit1": 0.13194444444444445,
+          "hit3": 0.3541666666666667,
+          "mrr": 0.33449900793650794,
+          "topical1": 0.4861111111111111,
+          "violation1": 0.7361111111111112,
+          "prefilter_hit1": 0.4722222222222222,
+          "postfilter1_hit1": 0.13194444444444445,
+          "postfilter3_hit1": 0.2916666666666667,
+          "postfilter3_empty": 0.3541666666666667
+        },
+        "version": {
+          "hit1": 0.24305555555555555,
+          "hit3": 0.75,
+          "mrr": 0.5106150793650794,
+          "topical1": 0.4930555555555556,
+          "violation1": 0.4722222222222222,
+          "prefilter_hit1": 0.4791666666666667,
+          "postfilter1_hit1": 0.24305555555555555,
+          "postfilter3_hit1": 0.4652777777777778,
+          "postfilter3_empty": 0.027777777777777776
+        }
+      },
+      "style": {
+        "fields": {
+          "hit1": 0.2037037037037037,
+          "hit3": 0.5069444444444444,
+          "mrr": 0.4213266093474427,
+          "topical1": 0.5439814814814815,
+          "violation1": 0.6296296296296297,
+          "prefilter_hit1": 0.5115740740740741,
+          "postfilter1_hit1": 0.2037037037037037,
+          "postfilter3_hit1": 0.39814814814814814,
+          "postfilter3_empty": 0.2037037037037037
+        },
+        "prose": {
+          "hit1": 0.22916666666666666,
+          "hit3": 0.5393518518518519,
+          "mrr": 0.446155753968254,
+          "topical1": 0.49537037037037035,
+          "violation1": 0.5532407407407407,
+          "prefilter_hit1": 0.4930555555555556,
+          "postfilter1_hit1": 0.22916666666666666,
+          "postfilter3_hit1": 0.4074074074074074,
+          "postfilter3_empty": 0.17592592592592593
+        }
+      },
+      "phrasing": {
+        "0": {
+          "hit1": 0.2013888888888889,
+          "hit3": 0.5208333333333334,
+          "mrr": 0.4289806547619047,
+          "topical1": 0.5486111111111112,
+          "violation1": 0.5972222222222222,
+          "prefilter_hit1": 0.4930555555555556,
+          "postfilter1_hit1": 0.2013888888888889,
+          "postfilter3_hit1": 0.3819444444444444,
+          "postfilter3_empty": 0.19791666666666666
+        },
+        "1": {
+          "hit1": 0.19791666666666666,
+          "hit3": 0.53125,
+          "mrr": 0.4216972552910053,
+          "topical1": 0.4513888888888889,
+          "violation1": 0.5902777777777778,
+          "prefilter_hit1": 0.4930555555555556,
+          "postfilter1_hit1": 0.19791666666666666,
+          "postfilter3_hit1": 0.4097222222222222,
+          "postfilter3_empty": 0.16666666666666666
+        },
+        "2": {
+          "hit1": 0.25,
+          "hit3": 0.5173611111111112,
+          "mrr": 0.45054563492063493,
+          "topical1": 0.5590277777777778,
+          "violation1": 0.5868055555555556,
+          "prefilter_hit1": 0.5208333333333334,
+          "postfilter1_hit1": 0.25,
+          "postfilter3_hit1": 0.4166666666666667,
+          "postfilter3_empty": 0.2048611111111111
+        }
+      },
+      "polarity": {
+        "0": {
+          "hit1": 0.21064814814814814,
+          "hit3": 0.5162037037037037,
+          "mrr": 0.42881117724867723,
+          "topical1": 0.5277777777777778,
+          "violation1": 0.6018518518518519,
+          "prefilter_hit1": 0.5115740740740741,
+          "postfilter1_hit1": 0.21064814814814814,
+          "postfilter3_hit1": 0.41203703703703703,
+          "postfilter3_empty": 0.1875
+        },
+        "1": {
+          "hit1": 0.2222222222222222,
+          "hit3": 0.5300925925925926,
+          "mrr": 0.4386711860670194,
+          "topical1": 0.5115740740740741,
+          "violation1": 0.5810185185185185,
+          "prefilter_hit1": 0.4930555555555556,
+          "postfilter1_hit1": 0.2222222222222222,
+          "postfilter3_hit1": 0.39351851851851855,
+          "postfilter3_empty": 0.19212962962962962
+        }
+      }
+    },
+    "world_bootstrap_95ci": {
+      "hit1": [
+        0.20023148148148148,
+        0.23032407407407407
+      ],
+      "hit3": [
+        0.4953703703703704,
+        0.5520833333333334
+      ],
+      "mrr": [
+        0.4192017678020283,
+        0.44601114693562616
+      ],
+      "topical1": [
+        0.4918981481481481,
+        0.5474537037037037
+      ],
+      "violation1": [
+        0.5648148148148149,
+        0.6180555555555556
+      ],
+      "prefilter_hit1": [
+        0.47453703703703703,
+        0.5277777777777778
+      ],
+      "postfilter1_hit1": [
+        0.20023148148148148,
+        0.23032407407407407
+      ],
+      "postfilter3_hit1": [
+        0.3796296296296297,
+        0.42476851851851855
+      ],
+      "postfilter3_empty": [
+        0.1597222222222222,
+        0.2222222222222222
+      ]
+    }
+  },
+  "gemma-768": {
+    "constraint": {
+      "hit1": 0.7488425925925926,
+      "hit3": 0.9699074074074074,
+      "mrr": 0.8572530864197531,
+      "topical1": 1.0,
+      "violation1": 0.2511574074074074,
+      "prefilter_hit1": 1.0,
+      "postfilter1_hit1": 0.7488425925925926,
+      "postfilter3_hit1": 0.9699074074074074,
+      "postfilter3_empty": 0.03009259259259259,
+      "n": 864
+    },
+    "control": {
+      "hit1": 1.0,
+      "hit3": 1.0,
+      "mrr": 1.0,
+      "topical1": 1.0,
+      "violation1": 0.0,
+      "prefilter_hit1": 1.0,
+      "postfilter1_hit1": 1.0,
+      "postfilter3_hit1": 1.0,
+      "postfilter3_empty": 0.0,
+      "n": 144
+    },
+    "paired_variant_success": 0.5069444444444444,
+    "failure_margins": {
+      "n": 217,
+      "median": 0.007745504379272461,
+      "over_0.01": 99,
+      "ties": 0
+    },
+    "breakdowns": {
+      "family": {
+        "conjunction": {
+          "hit1": 0.6180555555555556,
+          "hit3": 0.8194444444444444,
+          "mrr": 0.7523148148148149,
+          "topical1": 1.0,
+          "violation1": 0.3819444444444444,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6180555555555556,
+          "postfilter3_hit1": 0.8194444444444444,
+          "postfilter3_empty": 0.18055555555555555
+        },
+        "negation": {
+          "hit1": 0.7569444444444444,
+          "hit3": 1.0,
+          "mrr": 0.8599537037037037,
+          "topical1": 1.0,
+          "violation1": 0.24305555555555555,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7569444444444444,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "numeric": {
+          "hit1": 0.5,
+          "hit3": 1.0,
+          "mrr": 0.7222222222222222,
+          "topical1": 1.0,
+          "violation1": 0.5,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.5,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "role_binding": {
+          "hit1": 0.6180555555555556,
+          "hit3": 1.0,
+          "mrr": 0.8090277777777778,
+          "topical1": 1.0,
+          "violation1": 0.3819444444444444,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6180555555555556,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "temporal": {
+          "hit1": 1.0,
+          "hit3": 1.0,
+          "mrr": 1.0,
+          "topical1": 1.0,
+          "violation1": 0.0,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 1.0,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "version": {
+          "hit1": 1.0,
+          "hit3": 1.0,
+          "mrr": 1.0,
+          "topical1": 1.0,
+          "violation1": 0.0,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 1.0,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        }
+      },
+      "style": {
+        "fields": {
+          "hit1": 0.7569444444444444,
+          "hit3": 0.9745370370370371,
+          "mrr": 0.8640046296296297,
+          "topical1": 1.0,
+          "violation1": 0.24305555555555555,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7569444444444444,
+          "postfilter3_hit1": 0.9745370370370371,
+          "postfilter3_empty": 0.02546296296296296
+        },
+        "prose": {
+          "hit1": 0.7407407407407407,
+          "hit3": 0.9652777777777778,
+          "mrr": 0.8505015432098765,
+          "topical1": 1.0,
+          "violation1": 0.25925925925925924,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7407407407407407,
+          "postfilter3_hit1": 0.9652777777777778,
+          "postfilter3_empty": 0.034722222222222224
+        }
+      },
+      "phrasing": {
+        "0": {
+          "hit1": 0.7777777777777778,
+          "hit3": 0.9861111111111112,
+          "mrr": 0.8778935185185185,
+          "topical1": 1.0,
+          "violation1": 0.2222222222222222,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7777777777777778,
+          "postfilter3_hit1": 0.9861111111111112,
+          "postfilter3_empty": 0.013888888888888888
+        },
+        "1": {
+          "hit1": 0.7743055555555556,
+          "hit3": 0.9965277777777778,
+          "mrr": 0.8804976851851852,
+          "topical1": 1.0,
+          "violation1": 0.22569444444444445,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7743055555555556,
+          "postfilter3_hit1": 0.9965277777777778,
+          "postfilter3_empty": 0.003472222222222222
+        },
+        "2": {
+          "hit1": 0.6944444444444444,
+          "hit3": 0.9270833333333334,
+          "mrr": 0.8133680555555556,
+          "topical1": 1.0,
+          "violation1": 0.3055555555555556,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6944444444444444,
+          "postfilter3_hit1": 0.9270833333333334,
+          "postfilter3_empty": 0.07291666666666667
+        }
+      },
+      "polarity": {
+        "0": {
+          "hit1": 0.8171296296296297,
+          "hit3": 0.9398148148148148,
+          "mrr": 0.884645061728395,
+          "topical1": 1.0,
+          "violation1": 0.18287037037037038,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.8171296296296297,
+          "postfilter3_hit1": 0.9398148148148148,
+          "postfilter3_empty": 0.06018518518518518
+        },
+        "1": {
+          "hit1": 0.6805555555555556,
+          "hit3": 1.0,
+          "mrr": 0.8298611111111112,
+          "topical1": 1.0,
+          "violation1": 0.3194444444444444,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6805555555555556,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        }
+      }
+    },
+    "world_bootstrap_95ci": {
+      "hit1": [
+        0.736111111111111,
+        0.7662037037037037
+      ],
+      "hit3": [
+        0.9618055555555554,
+        0.9768518518518517
+      ],
+      "mrr": [
+        0.8481843171296296,
+        0.866898148148148
+      ],
+      "topical1": [
+        1.0,
+        1.0
+      ],
+      "violation1": [
+        0.2337962962962963,
+        0.2638888888888889
+      ],
+      "prefilter_hit1": [
+        1.0,
+        1.0
+      ],
+      "postfilter1_hit1": [
+        0.736111111111111,
+        0.7662037037037037
+      ],
+      "postfilter3_hit1": [
+        0.9618055555555554,
+        0.9768518518518517
+      ],
+      "postfilter3_empty": [
+        0.02314814814814815,
+        0.03819444444444445
+      ]
+    }
+  },
+  "gemma-512": {
+    "constraint": {
+      "hit1": 0.7372685185185185,
+      "hit3": 0.9699074074074074,
+      "mrr": 0.8524305555555556,
+      "topical1": 1.0,
+      "violation1": 0.26273148148148145,
+      "prefilter_hit1": 1.0,
+      "postfilter1_hit1": 0.7372685185185185,
+      "postfilter3_hit1": 0.9699074074074074,
+      "postfilter3_empty": 0.03009259259259259,
+      "n": 864
+    },
+    "control": {
+      "hit1": 1.0,
+      "hit3": 1.0,
+      "mrr": 1.0,
+      "topical1": 1.0,
+      "violation1": 0.0,
+      "prefilter_hit1": 1.0,
+      "postfilter1_hit1": 1.0,
+      "postfilter3_hit1": 1.0,
+      "postfilter3_empty": 0.0,
+      "n": 144
+    },
+    "paired_variant_success": 0.5046296296296297,
+    "failure_margins": {
+      "n": 227,
+      "median": 0.00671994686126709,
+      "over_0.01": 93,
+      "ties": 0
+    },
+    "breakdowns": {
+      "family": {
+        "conjunction": {
+          "hit1": 0.5902777777777778,
+          "hit3": 0.8194444444444444,
+          "mrr": 0.7407407407407407,
+          "topical1": 1.0,
+          "violation1": 0.4097222222222222,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.5902777777777778,
+          "postfilter3_hit1": 0.8194444444444444,
+          "postfilter3_empty": 0.18055555555555555
+        },
+        "negation": {
+          "hit1": 0.7222222222222222,
+          "hit3": 1.0,
+          "mrr": 0.8449074074074074,
+          "topical1": 1.0,
+          "violation1": 0.2777777777777778,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7222222222222222,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "numeric": {
+          "hit1": 0.5,
+          "hit3": 1.0,
+          "mrr": 0.7233796296296295,
+          "topical1": 1.0,
+          "violation1": 0.5,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.5,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "role_binding": {
+          "hit1": 0.6111111111111112,
+          "hit3": 1.0,
+          "mrr": 0.8055555555555556,
+          "topical1": 1.0,
+          "violation1": 0.3888888888888889,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6111111111111112,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "temporal": {
+          "hit1": 1.0,
+          "hit3": 1.0,
+          "mrr": 1.0,
+          "topical1": 1.0,
+          "violation1": 0.0,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 1.0,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "version": {
+          "hit1": 1.0,
+          "hit3": 1.0,
+          "mrr": 1.0,
+          "topical1": 1.0,
+          "violation1": 0.0,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 1.0,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        }
+      },
+      "style": {
+        "fields": {
+          "hit1": 0.7361111111111112,
+          "hit3": 0.9768518518518519,
+          "mrr": 0.8541666666666666,
+          "topical1": 1.0,
+          "violation1": 0.2638888888888889,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7361111111111112,
+          "postfilter3_hit1": 0.9768518518518519,
+          "postfilter3_empty": 0.023148148148148147
+        },
+        "prose": {
+          "hit1": 0.7384259259259259,
+          "hit3": 0.9629629629629629,
+          "mrr": 0.8506944444444444,
+          "topical1": 1.0,
+          "violation1": 0.26157407407407407,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7384259259259259,
+          "postfilter3_hit1": 0.9629629629629629,
+          "postfilter3_empty": 0.037037037037037035
+        }
+      },
+      "phrasing": {
+        "0": {
+          "hit1": 0.78125,
+          "hit3": 0.9861111111111112,
+          "mrr": 0.8813657407407407,
+          "topical1": 1.0,
+          "violation1": 0.21875,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.78125,
+          "postfilter3_hit1": 0.9861111111111112,
+          "postfilter3_empty": 0.013888888888888888
+        },
+        "1": {
+          "hit1": 0.7638888888888888,
+          "hit3": 0.9965277777777778,
+          "mrr": 0.8752893518518517,
+          "topical1": 1.0,
+          "violation1": 0.2361111111111111,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7638888888888888,
+          "postfilter3_hit1": 0.9965277777777778,
+          "postfilter3_empty": 0.003472222222222222
+        },
+        "2": {
+          "hit1": 0.6666666666666666,
+          "hit3": 0.9270833333333334,
+          "mrr": 0.800636574074074,
+          "topical1": 1.0,
+          "violation1": 0.3333333333333333,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6666666666666666,
+          "postfilter3_hit1": 0.9270833333333334,
+          "postfilter3_empty": 0.07291666666666667
+        }
+      },
+      "polarity": {
+        "0": {
+          "hit1": 0.8148148148148148,
+          "hit3": 0.9398148148148148,
+          "mrr": 0.884645061728395,
+          "topical1": 1.0,
+          "violation1": 0.18518518518518517,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.8148148148148148,
+          "postfilter3_hit1": 0.9398148148148148,
+          "postfilter3_empty": 0.06018518518518518
+        },
+        "1": {
+          "hit1": 0.6597222222222222,
+          "hit3": 1.0,
+          "mrr": 0.8202160493827161,
+          "topical1": 1.0,
+          "violation1": 0.3402777777777778,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6597222222222222,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        }
+      }
+    },
+    "world_bootstrap_95ci": {
+      "hit1": [
+        0.7222222222222223,
+        0.7534722222222222
+      ],
+      "hit3": [
+        0.9618055555555555,
+        0.9768518518518517
+      ],
+      "mrr": [
+        0.8429783950617286,
+        0.8614993248456789
+      ],
+      "topical1": [
+        1.0,
+        1.0
+      ],
+      "violation1": [
+        0.2465277777777778,
+        0.27777777777777773
+      ],
+      "prefilter_hit1": [
+        1.0,
+        1.0
+      ],
+      "postfilter1_hit1": [
+        0.7222222222222223,
+        0.7534722222222222
+      ],
+      "postfilter3_hit1": [
+        0.9618055555555555,
+        0.9768518518518517
+      ],
+      "postfilter3_empty": [
+        0.02314814814814815,
+        0.03819444444444445
+      ]
+    }
+  },
+  "gemma-256": {
+    "constraint": {
+      "hit1": 0.7071759259259259,
+      "hit3": 0.9710648148148148,
+      "mrr": 0.8328510802469135,
+      "topical1": 0.9965277777777778,
+      "violation1": 0.29050925925925924,
+      "prefilter_hit1": 0.9953703703703703,
+      "postfilter1_hit1": 0.7071759259259259,
+      "postfilter3_hit1": 0.96875,
+      "postfilter3_empty": 0.02662037037037037,
+      "n": 864
+    },
+    "control": {
+      "hit1": 1.0,
+      "hit3": 1.0,
+      "mrr": 1.0,
+      "topical1": 1.0,
+      "violation1": 0.0,
+      "prefilter_hit1": 1.0,
+      "postfilter1_hit1": 1.0,
+      "postfilter3_hit1": 1.0,
+      "postfilter3_empty": 0.0,
+      "n": 144
+    },
+    "paired_variant_success": 0.46296296296296297,
+    "failure_margins": {
+      "n": 253,
+      "median": 0.005285680294036865,
+      "over_0.01": 80,
+      "ties": 0
+    },
+    "breakdowns": {
+      "family": {
+        "conjunction": {
+          "hit1": 0.4930555555555556,
+          "hit3": 0.8472222222222222,
+          "mrr": 0.6863425925925926,
+          "topical1": 1.0,
+          "violation1": 0.5069444444444444,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.4930555555555556,
+          "postfilter3_hit1": 0.8472222222222222,
+          "postfilter3_empty": 0.1527777777777778
+        },
+        "negation": {
+          "hit1": 0.6527777777777778,
+          "hit3": 0.9930555555555556,
+          "mrr": 0.8015046296296297,
+          "topical1": 0.9861111111111112,
+          "violation1": 0.3333333333333333,
+          "prefilter_hit1": 0.9861111111111112,
+          "postfilter1_hit1": 0.6527777777777778,
+          "postfilter3_hit1": 0.9861111111111112,
+          "postfilter3_empty": 0.0
+        },
+        "numeric": {
+          "hit1": 0.5,
+          "hit3": 0.9930555555555556,
+          "mrr": 0.7135416666666666,
+          "topical1": 1.0,
+          "violation1": 0.5,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.5,
+          "postfilter3_hit1": 0.9930555555555556,
+          "postfilter3_empty": 0.006944444444444444
+        },
+        "role_binding": {
+          "hit1": 0.5972222222222222,
+          "hit3": 0.9930555555555556,
+          "mrr": 0.7957175925925926,
+          "topical1": 0.9930555555555556,
+          "violation1": 0.4027777777777778,
+          "prefilter_hit1": 0.9861111111111112,
+          "postfilter1_hit1": 0.5972222222222222,
+          "postfilter3_hit1": 0.9861111111111112,
+          "postfilter3_empty": 0.0
+        },
+        "temporal": {
+          "hit1": 1.0,
+          "hit3": 1.0,
+          "mrr": 1.0,
+          "topical1": 1.0,
+          "violation1": 0.0,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 1.0,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "version": {
+          "hit1": 1.0,
+          "hit3": 1.0,
+          "mrr": 1.0,
+          "topical1": 1.0,
+          "violation1": 0.0,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 1.0,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        }
+      },
+      "style": {
+        "fields": {
+          "hit1": 0.7037037037037037,
+          "hit3": 0.9814814814814815,
+          "mrr": 0.833719135802469,
+          "topical1": 0.9976851851851852,
+          "violation1": 0.29398148148148145,
+          "prefilter_hit1": 0.9976851851851852,
+          "postfilter1_hit1": 0.7037037037037037,
+          "postfilter3_hit1": 0.9814814814814815,
+          "postfilter3_empty": 0.016203703703703703
+        },
+        "prose": {
+          "hit1": 0.7106481481481481,
+          "hit3": 0.9606481481481481,
+          "mrr": 0.8319830246913581,
+          "topical1": 0.9953703703703703,
+          "violation1": 0.28703703703703703,
+          "prefilter_hit1": 0.9930555555555556,
+          "postfilter1_hit1": 0.7106481481481481,
+          "postfilter3_hit1": 0.9560185185185185,
+          "postfilter3_empty": 0.037037037037037035
+        }
+      },
+      "phrasing": {
+        "0": {
+          "hit1": 0.7673611111111112,
+          "hit3": 0.9861111111111112,
+          "mrr": 0.8721064814814814,
+          "topical1": 1.0,
+          "violation1": 0.2326388888888889,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7673611111111112,
+          "postfilter3_hit1": 0.9861111111111112,
+          "postfilter3_empty": 0.013888888888888888
+        },
+        "1": {
+          "hit1": 0.6875,
+          "hit3": 0.9861111111111112,
+          "mrr": 0.8252314814814814,
+          "topical1": 0.9895833333333334,
+          "violation1": 0.3055555555555556,
+          "prefilter_hit1": 0.9861111111111112,
+          "postfilter1_hit1": 0.6875,
+          "postfilter3_hit1": 0.9791666666666666,
+          "postfilter3_empty": 0.006944444444444444
+        },
+        "2": {
+          "hit1": 0.6666666666666666,
+          "hit3": 0.9409722222222222,
+          "mrr": 0.8012152777777778,
+          "topical1": 1.0,
+          "violation1": 0.3333333333333333,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6666666666666666,
+          "postfilter3_hit1": 0.9409722222222222,
+          "postfilter3_empty": 0.059027777777777776
+        }
+      },
+      "polarity": {
+        "0": {
+          "hit1": 0.8032407407407407,
+          "hit3": 0.9490740740740741,
+          "mrr": 0.8796296296296297,
+          "topical1": 0.9930555555555556,
+          "violation1": 0.19212962962962962,
+          "prefilter_hit1": 0.9930555555555556,
+          "postfilter1_hit1": 0.8032407407407407,
+          "postfilter3_hit1": 0.9444444444444444,
+          "postfilter3_empty": 0.04861111111111111
+        },
+        "1": {
+          "hit1": 0.6111111111111112,
+          "hit3": 0.9930555555555556,
+          "mrr": 0.7860725308641975,
+          "topical1": 1.0,
+          "violation1": 0.3888888888888889,
+          "prefilter_hit1": 0.9976851851851852,
+          "postfilter1_hit1": 0.6111111111111112,
+          "postfilter3_hit1": 0.9930555555555556,
+          "postfilter3_empty": 0.004629629629629629
+        }
+      }
+    },
+    "world_bootstrap_95ci": {
+      "hit1": [
+        0.6875,
+        0.7256944444444445
+      ],
+      "hit3": [
+        0.9629629629629629,
+        0.980324074074074
+      ],
+      "mrr": [
+        0.8213734567901235,
+        0.843653549382716
+      ],
+      "topical1": [
+        0.9895833333333334,
+        1.0
+      ],
+      "violation1": [
+        0.2731481481481481,
+        0.30902777777777773
+      ],
+      "prefilter_hit1": [
+        0.9861111111111112,
+        1.0
+      ],
+      "postfilter1_hit1": [
+        0.6875,
+        0.7256944444444445
+      ],
+      "postfilter3_hit1": [
+        0.9583333333333331,
+        0.9791666666666666
+      ],
+      "postfilter3_empty": [
+        0.018518518518518517,
+        0.03472222222222223
+      ]
+    }
+  },
+  "gemma-128": {
+    "constraint": {
+      "hit1": 0.6666666666666666,
+      "hit3": 0.9791666666666666,
+      "mrr": 0.8141203703703703,
+      "topical1": 0.9918981481481481,
+      "violation1": 0.3275462962962963,
+      "prefilter_hit1": 0.9930555555555556,
+      "postfilter1_hit1": 0.6666666666666666,
+      "postfilter3_hit1": 0.9756944444444444,
+      "postfilter3_empty": 0.017361111111111112,
+      "n": 864
+    },
+    "control": {
+      "hit1": 1.0,
+      "hit3": 1.0,
+      "mrr": 1.0,
+      "topical1": 1.0,
+      "violation1": 0.0,
+      "prefilter_hit1": 1.0,
+      "postfilter1_hit1": 1.0,
+      "postfilter3_hit1": 1.0,
+      "postfilter3_empty": 0.0,
+      "n": 144
+    },
+    "paired_variant_success": 0.39351851851851855,
+    "failure_margins": {
+      "n": 288,
+      "median": 0.003218531608581543,
+      "over_0.01": 42,
+      "ties": 0
+    },
+    "breakdowns": {
+      "family": {
+        "conjunction": {
+          "hit1": 0.4375,
+          "hit3": 0.8958333333333334,
+          "mrr": 0.6707175925925926,
+          "topical1": 0.9930555555555556,
+          "violation1": 0.5625,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.4375,
+          "postfilter3_hit1": 0.8958333333333334,
+          "postfilter3_empty": 0.10416666666666667
+        },
+        "negation": {
+          "hit1": 0.6805555555555556,
+          "hit3": 0.9930555555555556,
+          "mrr": 0.8185185185185185,
+          "topical1": 0.9861111111111112,
+          "violation1": 0.3055555555555556,
+          "prefilter_hit1": 0.9861111111111112,
+          "postfilter1_hit1": 0.6805555555555556,
+          "postfilter3_hit1": 0.9861111111111112,
+          "postfilter3_empty": 0.0
+        },
+        "numeric": {
+          "hit1": 0.5,
+          "hit3": 1.0,
+          "mrr": 0.7141203703703703,
+          "topical1": 1.0,
+          "violation1": 0.5,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.5,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "role_binding": {
+          "hit1": 0.5486111111111112,
+          "hit3": 0.9861111111111112,
+          "mrr": 0.7670138888888889,
+          "topical1": 0.9861111111111112,
+          "violation1": 0.4444444444444444,
+          "prefilter_hit1": 0.9861111111111112,
+          "postfilter1_hit1": 0.5486111111111112,
+          "postfilter3_hit1": 0.9861111111111112,
+          "postfilter3_empty": 0.0
+        },
+        "temporal": {
+          "hit1": 0.8333333333333334,
+          "hit3": 1.0,
+          "mrr": 0.914351851851852,
+          "topical1": 0.9861111111111112,
+          "violation1": 0.1527777777777778,
+          "prefilter_hit1": 0.9861111111111112,
+          "postfilter1_hit1": 0.8333333333333334,
+          "postfilter3_hit1": 0.9861111111111112,
+          "postfilter3_empty": 0.0
+        },
+        "version": {
+          "hit1": 1.0,
+          "hit3": 1.0,
+          "mrr": 1.0,
+          "topical1": 1.0,
+          "violation1": 0.0,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 1.0,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        }
+      },
+      "style": {
+        "fields": {
+          "hit1": 0.6620370370370371,
+          "hit3": 0.9861111111111112,
+          "mrr": 0.8119984567901234,
+          "topical1": 0.9953703703703703,
+          "violation1": 0.3333333333333333,
+          "prefilter_hit1": 0.9953703703703703,
+          "postfilter1_hit1": 0.6620370370370371,
+          "postfilter3_hit1": 0.9837962962962963,
+          "postfilter3_empty": 0.011574074074074073
+        },
+        "prose": {
+          "hit1": 0.6712962962962963,
+          "hit3": 0.9722222222222222,
+          "mrr": 0.8162422839506173,
+          "topical1": 0.9884259259259259,
+          "violation1": 0.32175925925925924,
+          "prefilter_hit1": 0.9907407407407407,
+          "postfilter1_hit1": 0.6712962962962963,
+          "postfilter3_hit1": 0.9675925925925926,
+          "postfilter3_empty": 0.023148148148148147
+        }
+      },
+      "phrasing": {
+        "0": {
+          "hit1": 0.7534722222222222,
+          "hit3": 0.9895833333333334,
+          "mrr": 0.8660300925925926,
+          "topical1": 1.0,
+          "violation1": 0.2465277777777778,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7534722222222222,
+          "postfilter3_hit1": 0.9895833333333334,
+          "postfilter3_empty": 0.010416666666666666
+        },
+        "1": {
+          "hit1": 0.625,
+          "hit3": 0.9826388888888888,
+          "mrr": 0.7898726851851853,
+          "topical1": 0.9756944444444444,
+          "violation1": 0.3576388888888889,
+          "prefilter_hit1": 0.9791666666666666,
+          "postfilter1_hit1": 0.625,
+          "postfilter3_hit1": 0.9722222222222222,
+          "postfilter3_empty": 0.006944444444444444
+        },
+        "2": {
+          "hit1": 0.6215277777777778,
+          "hit3": 0.9652777777777778,
+          "mrr": 0.7864583333333334,
+          "topical1": 1.0,
+          "violation1": 0.3784722222222222,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6215277777777778,
+          "postfilter3_hit1": 0.9652777777777778,
+          "postfilter3_empty": 0.034722222222222224
+        }
+      },
+      "polarity": {
+        "0": {
+          "hit1": 0.7870370370370371,
+          "hit3": 0.9675925925925926,
+          "mrr": 0.8775848765432099,
+          "topical1": 0.9907407407407407,
+          "violation1": 0.20601851851851852,
+          "prefilter_hit1": 0.9930555555555556,
+          "postfilter1_hit1": 0.7870370370370371,
+          "postfilter3_hit1": 0.9652777777777778,
+          "postfilter3_empty": 0.027777777777777776
+        },
+        "1": {
+          "hit1": 0.5462962962962963,
+          "hit3": 0.9907407407407407,
+          "mrr": 0.7506558641975308,
+          "topical1": 0.9930555555555556,
+          "violation1": 0.44907407407407407,
+          "prefilter_hit1": 0.9930555555555556,
+          "postfilter1_hit1": 0.5462962962962963,
+          "postfilter3_hit1": 0.9861111111111112,
+          "postfilter3_empty": 0.006944444444444444
+        }
+      }
+    },
+    "world_bootstrap_95ci": {
+      "hit1": [
+        0.6400462962962963,
+        0.6909722222222223
+      ],
+      "hit3": [
+        0.9710648148148148,
+        0.9872974537037036
+      ],
+      "mrr": [
+        0.7979730902777777,
+        0.828414351851852
+      ],
+      "topical1": [
+        0.9756944444444443,
+        1.0
+      ],
+      "violation1": [
+        0.30671296296296297,
+        0.3506944444444445
+      ],
+      "prefilter_hit1": [
+        0.9791666666666665,
+        1.0
+      ],
+      "postfilter1_hit1": [
+        0.6400462962962963,
+        0.6909722222222223
+      ],
+      "postfilter3_hit1": [
+        0.9618055555555555,
+        0.9872685185185185
+      ],
+      "postfilter3_empty": [
+        0.009259259259259259,
+        0.025462962962962965
+      ]
+    }
+  },
+  "wemm-2048": {
+    "constraint": {
+      "hit1": 0.7870370370370371,
+      "hit3": 0.9780092592592593,
+      "mrr": 0.8812692901234569,
+      "topical1": 1.0,
+      "violation1": 0.21296296296296297,
+      "prefilter_hit1": 1.0,
+      "postfilter1_hit1": 0.7870370370370371,
+      "postfilter3_hit1": 0.9780092592592593,
+      "postfilter3_empty": 0.02199074074074074,
+      "n": 864
+    },
+    "control": {
+      "hit1": 1.0,
+      "hit3": 1.0,
+      "mrr": 1.0,
+      "topical1": 1.0,
+      "violation1": 0.0,
+      "prefilter_hit1": 1.0,
+      "postfilter1_hit1": 1.0,
+      "postfilter3_hit1": 1.0,
+      "postfilter3_empty": 0.0,
+      "n": 144
+    },
+    "paired_variant_success": 0.5949074074074074,
+    "failure_margins": {
+      "n": 184,
+      "median": 0.00718313455581665,
+      "over_0.01": 67,
+      "ties": 0
+    },
+    "breakdowns": {
+      "family": {
+        "conjunction": {
+          "hit1": 0.7291666666666666,
+          "hit3": 0.8680555555555556,
+          "mrr": 0.8234953703703703,
+          "topical1": 1.0,
+          "violation1": 0.2708333333333333,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7291666666666666,
+          "postfilter3_hit1": 0.8680555555555556,
+          "postfilter3_empty": 0.13194444444444445
+        },
+        "negation": {
+          "hit1": 0.8263888888888888,
+          "hit3": 1.0,
+          "mrr": 0.9027777777777778,
+          "topical1": 1.0,
+          "violation1": 0.1736111111111111,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.8263888888888888,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "numeric": {
+          "hit1": 0.5625,
+          "hit3": 1.0,
+          "mrr": 0.7592592592592592,
+          "topical1": 1.0,
+          "violation1": 0.4375,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.5625,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "role_binding": {
+          "hit1": 0.6388888888888888,
+          "hit3": 1.0,
+          "mrr": 0.8194444444444444,
+          "topical1": 1.0,
+          "violation1": 0.3611111111111111,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6388888888888888,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "temporal": {
+          "hit1": 1.0,
+          "hit3": 1.0,
+          "mrr": 1.0,
+          "topical1": 1.0,
+          "violation1": 0.0,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 1.0,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "version": {
+          "hit1": 0.9652777777777778,
+          "hit3": 1.0,
+          "mrr": 0.9826388888888888,
+          "topical1": 1.0,
+          "violation1": 0.034722222222222224,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.9652777777777778,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        }
+      },
+      "style": {
+        "fields": {
+          "hit1": 0.8078703703703703,
+          "hit3": 0.9768518518518519,
+          "mrr": 0.8900462962962963,
+          "topical1": 1.0,
+          "violation1": 0.19212962962962962,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.8078703703703703,
+          "postfilter3_hit1": 0.9768518518518519,
+          "postfilter3_empty": 0.023148148148148147
+        },
+        "prose": {
+          "hit1": 0.7662037037037037,
+          "hit3": 0.9791666666666666,
+          "mrr": 0.8724922839506172,
+          "topical1": 1.0,
+          "violation1": 0.2337962962962963,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7662037037037037,
+          "postfilter3_hit1": 0.9791666666666666,
+          "postfilter3_empty": 0.020833333333333332
+        }
+      },
+      "phrasing": {
+        "0": {
+          "hit1": 0.875,
+          "hit3": 1.0,
+          "mrr": 0.9328703703703705,
+          "topical1": 1.0,
+          "violation1": 0.125,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.875,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "1": {
+          "hit1": 0.84375,
+          "hit3": 1.0,
+          "mrr": 0.9160879629629629,
+          "topical1": 1.0,
+          "violation1": 0.15625,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.84375,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "2": {
+          "hit1": 0.6423611111111112,
+          "hit3": 0.9340277777777778,
+          "mrr": 0.7948495370370371,
+          "topical1": 1.0,
+          "violation1": 0.3576388888888889,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6423611111111112,
+          "postfilter3_hit1": 0.9340277777777778,
+          "postfilter3_empty": 0.06597222222222222
+        }
+      },
+      "polarity": {
+        "0": {
+          "hit1": 0.8194444444444444,
+          "hit3": 0.9560185185185185,
+          "mrr": 0.8940972222222222,
+          "topical1": 1.0,
+          "violation1": 0.18055555555555555,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.8194444444444444,
+          "postfilter3_hit1": 0.9560185185185185,
+          "postfilter3_empty": 0.04398148148148148
+        },
+        "1": {
+          "hit1": 0.7546296296296297,
+          "hit3": 1.0,
+          "mrr": 0.8684413580246912,
+          "topical1": 1.0,
+          "violation1": 0.24537037037037038,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7546296296296297,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        }
+      }
+    },
+    "world_bootstrap_95ci": {
+      "hit1": [
+        0.7673611111111112,
+        0.8090277777777778
+      ],
+      "hit3": [
+        0.9745370370370368,
+        0.9814814814814814
+      ],
+      "mrr": [
+        0.8696952160493828,
+        0.8936149691358025
+      ],
+      "topical1": [
+        1.0,
+        1.0
+      ],
+      "violation1": [
+        0.1909722222222222,
+        0.23263888888888892
+      ],
+      "prefilter_hit1": [
+        1.0,
+        1.0
+      ],
+      "postfilter1_hit1": [
+        0.7673611111111112,
+        0.8090277777777778
+      ],
+      "postfilter3_hit1": [
+        0.9745370370370368,
+        0.9814814814814814
+      ],
+      "postfilter3_empty": [
+        0.01851851851851852,
+        0.025462962962962965
+      ]
+    }
+  },
+  "wemm-512": {
+    "constraint": {
+      "hit1": 0.7615740740740741,
+      "hit3": 0.9768518518518519,
+      "mrr": 0.8692129629629629,
+      "topical1": 1.0,
+      "violation1": 0.23842592592592593,
+      "prefilter_hit1": 1.0,
+      "postfilter1_hit1": 0.7615740740740741,
+      "postfilter3_hit1": 0.9768518518518519,
+      "postfilter3_empty": 0.023148148148148147,
+      "n": 864
+    },
+    "control": {
+      "hit1": 1.0,
+      "hit3": 1.0,
+      "mrr": 1.0,
+      "topical1": 1.0,
+      "violation1": 0.0,
+      "prefilter_hit1": 1.0,
+      "postfilter1_hit1": 1.0,
+      "postfilter3_hit1": 1.0,
+      "postfilter3_empty": 0.0,
+      "n": 144
+    },
+    "paired_variant_success": 0.5462962962962963,
+    "failure_margins": {
+      "n": 206,
+      "median": 0.005395472049713135,
+      "over_0.01": 47,
+      "ties": 0
+    },
+    "breakdowns": {
+      "family": {
+        "conjunction": {
+          "hit1": 0.6944444444444444,
+          "hit3": 0.8611111111111112,
+          "mrr": 0.8043981481481481,
+          "topical1": 1.0,
+          "violation1": 0.3055555555555556,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6944444444444444,
+          "postfilter3_hit1": 0.8611111111111112,
+          "postfilter3_empty": 0.1388888888888889
+        },
+        "negation": {
+          "hit1": 0.8333333333333334,
+          "hit3": 1.0,
+          "mrr": 0.90625,
+          "topical1": 1.0,
+          "violation1": 0.16666666666666666,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.8333333333333334,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "numeric": {
+          "hit1": 0.5416666666666666,
+          "hit3": 1.0,
+          "mrr": 0.755787037037037,
+          "topical1": 1.0,
+          "violation1": 0.4583333333333333,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.5416666666666666,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "role_binding": {
+          "hit1": 0.625,
+          "hit3": 1.0,
+          "mrr": 0.8125,
+          "topical1": 1.0,
+          "violation1": 0.375,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.625,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "temporal": {
+          "hit1": 0.9930555555555556,
+          "hit3": 1.0,
+          "mrr": 0.9953703703703702,
+          "topical1": 1.0,
+          "violation1": 0.006944444444444444,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.9930555555555556,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "version": {
+          "hit1": 0.8819444444444444,
+          "hit3": 1.0,
+          "mrr": 0.9409722222222222,
+          "topical1": 1.0,
+          "violation1": 0.11805555555555555,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.8819444444444444,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        }
+      },
+      "style": {
+        "fields": {
+          "hit1": 0.7824074074074074,
+          "hit3": 0.9837962962962963,
+          "mrr": 0.8805941358024691,
+          "topical1": 1.0,
+          "violation1": 0.2175925925925926,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7824074074074074,
+          "postfilter3_hit1": 0.9837962962962963,
+          "postfilter3_empty": 0.016203703703703703
+        },
+        "prose": {
+          "hit1": 0.7407407407407407,
+          "hit3": 0.9699074074074074,
+          "mrr": 0.8578317901234568,
+          "topical1": 1.0,
+          "violation1": 0.25925925925925924,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7407407407407407,
+          "postfilter3_hit1": 0.9699074074074074,
+          "postfilter3_empty": 0.03009259259259259
+        }
+      },
+      "phrasing": {
+        "0": {
+          "hit1": 0.8333333333333334,
+          "hit3": 0.9930555555555556,
+          "mrr": 0.9114583333333334,
+          "topical1": 1.0,
+          "violation1": 0.16666666666666666,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.8333333333333334,
+          "postfilter3_hit1": 0.9930555555555556,
+          "postfilter3_empty": 0.006944444444444444
+        },
+        "1": {
+          "hit1": 0.8055555555555556,
+          "hit3": 0.9930555555555556,
+          "mrr": 0.8958333333333334,
+          "topical1": 1.0,
+          "violation1": 0.19444444444444445,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.8055555555555556,
+          "postfilter3_hit1": 0.9930555555555556,
+          "postfilter3_empty": 0.006944444444444444
+        },
+        "2": {
+          "hit1": 0.6458333333333334,
+          "hit3": 0.9444444444444444,
+          "mrr": 0.8003472222222222,
+          "topical1": 1.0,
+          "violation1": 0.3541666666666667,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6458333333333334,
+          "postfilter3_hit1": 0.9444444444444444,
+          "postfilter3_empty": 0.05555555555555555
+        }
+      },
+      "polarity": {
+        "0": {
+          "hit1": 0.8148148148148148,
+          "hit3": 0.9583333333333334,
+          "mrr": 0.8927469135802468,
+          "topical1": 1.0,
+          "violation1": 0.18518518518518517,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.8148148148148148,
+          "postfilter3_hit1": 0.9583333333333334,
+          "postfilter3_empty": 0.041666666666666664
+        },
+        "1": {
+          "hit1": 0.7083333333333334,
+          "hit3": 0.9953703703703703,
+          "mrr": 0.845679012345679,
+          "topical1": 1.0,
+          "violation1": 0.2916666666666667,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7083333333333334,
+          "postfilter3_hit1": 0.9953703703703703,
+          "postfilter3_empty": 0.004629629629629629
+        }
+      }
+    },
+    "world_bootstrap_95ci": {
+      "hit1": [
+        0.7326388888888888,
+        0.7905092592592592
+      ],
+      "hit3": [
+        0.9710648148148148,
+        0.9826388888888888
+      ],
+      "mrr": [
+        0.853293788580247,
+        0.8852261766975309
+      ],
+      "topical1": [
+        1.0,
+        1.0
+      ],
+      "violation1": [
+        0.20949074074074073,
+        0.2673611111111111
+      ],
+      "prefilter_hit1": [
+        1.0,
+        1.0
+      ],
+      "postfilter1_hit1": [
+        0.7326388888888888,
+        0.7905092592592592
+      ],
+      "postfilter3_hit1": [
+        0.9710648148148148,
+        0.9826388888888888
+      ],
+      "postfilter3_empty": [
+        0.017361111111111115,
+        0.02893518518518519
+      ]
+    }
+  },
+  "wemm-256": {
+    "constraint": {
+      "hit1": 0.7546296296296297,
+      "hit3": 0.9803240740740741,
+      "mrr": 0.8654513888888888,
+      "topical1": 1.0,
+      "violation1": 0.24537037037037038,
+      "prefilter_hit1": 1.0,
+      "postfilter1_hit1": 0.7546296296296297,
+      "postfilter3_hit1": 0.9803240740740741,
+      "postfilter3_empty": 0.019675925925925927,
+      "n": 864
+    },
+    "control": {
+      "hit1": 1.0,
+      "hit3": 1.0,
+      "mrr": 1.0,
+      "topical1": 1.0,
+      "violation1": 0.0,
+      "prefilter_hit1": 1.0,
+      "postfilter1_hit1": 1.0,
+      "postfilter3_hit1": 1.0,
+      "postfilter3_empty": 0.0,
+      "n": 144
+    },
+    "paired_variant_success": 0.5416666666666666,
+    "failure_margins": {
+      "n": 212,
+      "median": 0.005131810903549194,
+      "over_0.01": 46,
+      "ties": 0
+    },
+    "breakdowns": {
+      "family": {
+        "conjunction": {
+          "hit1": 0.7222222222222222,
+          "hit3": 0.8819444444444444,
+          "mrr": 0.8200231481481481,
+          "topical1": 1.0,
+          "violation1": 0.2777777777777778,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7222222222222222,
+          "postfilter3_hit1": 0.8819444444444444,
+          "postfilter3_empty": 0.11805555555555555
+        },
+        "negation": {
+          "hit1": 0.8125,
+          "hit3": 1.0,
+          "mrr": 0.8935185185185186,
+          "topical1": 1.0,
+          "violation1": 0.1875,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.8125,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "numeric": {
+          "hit1": 0.5486111111111112,
+          "hit3": 1.0,
+          "mrr": 0.7581018518518517,
+          "topical1": 1.0,
+          "violation1": 0.4513888888888889,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.5486111111111112,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "role_binding": {
+          "hit1": 0.625,
+          "hit3": 1.0,
+          "mrr": 0.8125,
+          "topical1": 1.0,
+          "violation1": 0.375,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.625,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "temporal": {
+          "hit1": 0.9861111111111112,
+          "hit3": 1.0,
+          "mrr": 0.991898148148148,
+          "topical1": 1.0,
+          "violation1": 0.013888888888888888,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.9861111111111112,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "version": {
+          "hit1": 0.8333333333333334,
+          "hit3": 1.0,
+          "mrr": 0.9166666666666666,
+          "topical1": 1.0,
+          "violation1": 0.16666666666666666,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.8333333333333334,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        }
+      },
+      "style": {
+        "fields": {
+          "hit1": 0.7847222222222222,
+          "hit3": 0.9837962962962963,
+          "mrr": 0.880979938271605,
+          "topical1": 1.0,
+          "violation1": 0.2152777777777778,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7847222222222222,
+          "postfilter3_hit1": 0.9837962962962963,
+          "postfilter3_empty": 0.016203703703703703
+        },
+        "prose": {
+          "hit1": 0.7245370370370371,
+          "hit3": 0.9768518518518519,
+          "mrr": 0.8499228395061728,
+          "topical1": 1.0,
+          "violation1": 0.27546296296296297,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7245370370370371,
+          "postfilter3_hit1": 0.9768518518518519,
+          "postfilter3_empty": 0.023148148148148147
+        }
+      },
+      "phrasing": {
+        "0": {
+          "hit1": 0.8368055555555556,
+          "hit3": 0.9930555555555556,
+          "mrr": 0.9120370370370369,
+          "topical1": 1.0,
+          "violation1": 0.16319444444444445,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.8368055555555556,
+          "postfilter3_hit1": 0.9930555555555556,
+          "postfilter3_empty": 0.006944444444444444
+        },
+        "1": {
+          "hit1": 0.8020833333333334,
+          "hit3": 0.9965277777777778,
+          "mrr": 0.8949652777777778,
+          "topical1": 1.0,
+          "violation1": 0.19791666666666666,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.8020833333333334,
+          "postfilter3_hit1": 0.9965277777777778,
+          "postfilter3_empty": 0.003472222222222222
+        },
+        "2": {
+          "hit1": 0.625,
+          "hit3": 0.9513888888888888,
+          "mrr": 0.7893518518518519,
+          "topical1": 1.0,
+          "violation1": 0.375,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.625,
+          "postfilter3_hit1": 0.9513888888888888,
+          "postfilter3_empty": 0.04861111111111111
+        }
+      },
+      "polarity": {
+        "0": {
+          "hit1": 0.7685185185185185,
+          "hit3": 0.9629629629629629,
+          "mrr": 0.8668981481481481,
+          "topical1": 1.0,
+          "violation1": 0.23148148148148148,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7685185185185185,
+          "postfilter3_hit1": 0.9629629629629629,
+          "postfilter3_empty": 0.037037037037037035
+        },
+        "1": {
+          "hit1": 0.7407407407407407,
+          "hit3": 0.9976851851851852,
+          "mrr": 0.8640046296296297,
+          "topical1": 1.0,
+          "violation1": 0.25925925925925924,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7407407407407407,
+          "postfilter3_hit1": 0.9976851851851852,
+          "postfilter3_empty": 0.0023148148148148147
+        }
+      }
+    },
+    "world_bootstrap_95ci": {
+      "hit1": [
+        0.726851851851852,
+        0.7870370370370371
+      ],
+      "hit3": [
+        0.9733796296296294,
+        0.9872685185185185
+      ],
+      "mrr": [
+        0.8511766975308642,
+        0.8827208719135803
+      ],
+      "topical1": [
+        1.0,
+        1.0
+      ],
+      "violation1": [
+        0.21296296296296294,
+        0.27314814814814814
+      ],
+      "prefilter_hit1": [
+        1.0,
+        1.0
+      ],
+      "postfilter1_hit1": [
+        0.726851851851852,
+        0.7870370370370371
+      ],
+      "postfilter3_hit1": [
+        0.9733796296296294,
+        0.9872685185185185
+      ],
+      "postfilter3_empty": [
+        0.012731481481481483,
+        0.026620370370370374
+      ]
+    }
+  },
+  "wemm-128": {
+    "constraint": {
+      "hit1": 0.6689814814814815,
+      "hit3": 0.9722222222222222,
+      "mrr": 0.817457561728395,
+      "topical1": 1.0,
+      "violation1": 0.33101851851851855,
+      "prefilter_hit1": 1.0,
+      "postfilter1_hit1": 0.6689814814814815,
+      "postfilter3_hit1": 0.9722222222222222,
+      "postfilter3_empty": 0.027777777777777776,
+      "n": 864
+    },
+    "control": {
+      "hit1": 1.0,
+      "hit3": 1.0,
+      "mrr": 1.0,
+      "topical1": 1.0,
+      "violation1": 0.0,
+      "prefilter_hit1": 1.0,
+      "postfilter1_hit1": 1.0,
+      "postfilter3_hit1": 1.0,
+      "postfilter3_empty": 0.0,
+      "n": 144
+    },
+    "paired_variant_success": 0.38425925925925924,
+    "failure_margins": {
+      "n": 286,
+      "median": 0.004474431276321411,
+      "over_0.01": 65,
+      "ties": 0
+    },
+    "breakdowns": {
+      "family": {
+        "conjunction": {
+          "hit1": 0.5833333333333334,
+          "hit3": 0.8402777777777778,
+          "mrr": 0.7351851851851853,
+          "topical1": 1.0,
+          "violation1": 0.4166666666666667,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.5833333333333334,
+          "postfilter3_hit1": 0.8402777777777778,
+          "postfilter3_empty": 0.1597222222222222
+        },
+        "negation": {
+          "hit1": 0.7361111111111112,
+          "hit3": 1.0,
+          "mrr": 0.8495370370370371,
+          "topical1": 1.0,
+          "violation1": 0.2638888888888889,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7361111111111112,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "numeric": {
+          "hit1": 0.5416666666666666,
+          "hit3": 1.0,
+          "mrr": 0.7488425925925926,
+          "topical1": 1.0,
+          "violation1": 0.4583333333333333,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.5416666666666666,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "role_binding": {
+          "hit1": 0.6180555555555556,
+          "hit3": 1.0,
+          "mrr": 0.8090277777777778,
+          "topical1": 1.0,
+          "violation1": 0.3819444444444444,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6180555555555556,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        },
+        "temporal": {
+          "hit1": 0.8819444444444444,
+          "hit3": 0.9930555555555556,
+          "mrr": 0.9357638888888888,
+          "topical1": 1.0,
+          "violation1": 0.11805555555555555,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.8819444444444444,
+          "postfilter3_hit1": 0.9930555555555556,
+          "postfilter3_empty": 0.006944444444444444
+        },
+        "version": {
+          "hit1": 0.6527777777777778,
+          "hit3": 1.0,
+          "mrr": 0.8263888888888888,
+          "topical1": 1.0,
+          "violation1": 0.3472222222222222,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6527777777777778,
+          "postfilter3_hit1": 1.0,
+          "postfilter3_empty": 0.0
+        }
+      },
+      "style": {
+        "fields": {
+          "hit1": 0.6944444444444444,
+          "hit3": 0.9814814814814815,
+          "mrr": 0.8321759259259259,
+          "topical1": 1.0,
+          "violation1": 0.3055555555555556,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6944444444444444,
+          "postfilter3_hit1": 0.9814814814814815,
+          "postfilter3_empty": 0.018518518518518517
+        },
+        "prose": {
+          "hit1": 0.6435185185185185,
+          "hit3": 0.9629629629629629,
+          "mrr": 0.8027391975308641,
+          "topical1": 1.0,
+          "violation1": 0.35648148148148145,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6435185185185185,
+          "postfilter3_hit1": 0.9629629629629629,
+          "postfilter3_empty": 0.037037037037037035
+        }
+      },
+      "phrasing": {
+        "0": {
+          "hit1": 0.7222222222222222,
+          "hit3": 0.9861111111111112,
+          "mrr": 0.8518518518518517,
+          "topical1": 1.0,
+          "violation1": 0.2777777777777778,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.7222222222222222,
+          "postfilter3_hit1": 0.9861111111111112,
+          "postfilter3_empty": 0.013888888888888888
+        },
+        "1": {
+          "hit1": 0.6875,
+          "hit3": 0.9826388888888888,
+          "mrr": 0.825925925925926,
+          "topical1": 1.0,
+          "violation1": 0.3125,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6875,
+          "postfilter3_hit1": 0.9826388888888888,
+          "postfilter3_empty": 0.017361111111111112
+        },
+        "2": {
+          "hit1": 0.5972222222222222,
+          "hit3": 0.9479166666666666,
+          "mrr": 0.7745949074074074,
+          "topical1": 1.0,
+          "violation1": 0.4027777777777778,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.5972222222222222,
+          "postfilter3_hit1": 0.9479166666666666,
+          "postfilter3_empty": 0.052083333333333336
+        }
+      },
+      "polarity": {
+        "0": {
+          "hit1": 0.6851851851851852,
+          "hit3": 0.9583333333333334,
+          "mrr": 0.8201003086419753,
+          "topical1": 1.0,
+          "violation1": 0.3148148148148148,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6851851851851852,
+          "postfilter3_hit1": 0.9583333333333334,
+          "postfilter3_empty": 0.041666666666666664
+        },
+        "1": {
+          "hit1": 0.6527777777777778,
+          "hit3": 0.9861111111111112,
+          "mrr": 0.8148148148148148,
+          "topical1": 1.0,
+          "violation1": 0.3472222222222222,
+          "prefilter_hit1": 1.0,
+          "postfilter1_hit1": 0.6527777777777778,
+          "postfilter3_hit1": 0.9861111111111112,
+          "postfilter3_empty": 0.013888888888888888
+        }
+      }
+    },
+    "world_bootstrap_95ci": {
+      "hit1": [
+        0.6469907407407407,
+        0.6909722222222222
+      ],
+      "hit3": [
+        0.9641203703703703,
+        0.9803240740740738
+      ],
+      "mrr": [
+        0.8065571952160494,
+        0.8281269290123456
+      ],
+      "topical1": [
+        1.0,
+        1.0
+      ],
+      "violation1": [
+        0.30902777777777773,
+        0.3530092592592593
+      ],
+      "prefilter_hit1": [
+        1.0,
+        1.0
+      ],
+      "postfilter1_hit1": [
+        0.6469907407407407,
+        0.6909722222222222
+      ],
+      "postfilter3_hit1": [
+        0.9641203703703703,
+        0.9803240740740738
+      ],
+      "postfilter3_empty": [
+        0.01967592592592593,
+        0.03587962962962963
+      ]
+    }
+  },
+  "ovis-2048": {
+    "constraint": {
+      "hit1": 0.4027777777777778,
+      "hit3": 0.7222222222222222,
+      "mrr": 0.5904720568783068,
+      "topical1": 0.7627314814814815,
+      "violation1": 0.46296296296296297,
+      "prefilter_hit1": 0.7511574074074074,
+      "postfilter1_hit1": 0.4027777777777778,
+      "postfilter3_hit1": 0.6550925925925926,
+      "postfilter3_empty": 0.1412037037037037,
+      "n": 864
+    },
+    "control": {
+      "hit1": 0.5208333333333334,
+      "hit3": 0.6805555555555556,
+      "mrr": 0.6546296296296297,
+      "topical1": 0.5208333333333334,
+      "violation1": 0.0,
+      "prefilter_hit1": 0.5208333333333334,
+      "postfilter1_hit1": 0.5208333333333334,
+      "postfilter3_hit1": 0.5208333333333334,
+      "postfilter3_empty": 0.0,
+      "n": 144
+    },
+    "paired_variant_success": 0.15046296296296297,
+    "failure_margins": {
+      "n": 516,
+      "median": 0.03400162607431412,
+      "over_0.01": 392,
+      "ties": 0
+    },
+    "breakdowns": {
+      "family": {
+        "conjunction": {
+          "hit1": 0.3333333333333333,
+          "hit3": 0.5833333333333334,
+          "mrr": 0.5218419312169311,
+          "topical1": 0.8055555555555556,
+          "violation1": 0.6111111111111112,
+          "prefilter_hit1": 0.7708333333333334,
+          "postfilter1_hit1": 0.3333333333333333,
+          "postfilter3_hit1": 0.5347222222222222,
+          "postfilter3_empty": 0.3680555555555556
+        },
+        "negation": {
+          "hit1": 0.4722222222222222,
+          "hit3": 0.8333333333333334,
+          "mrr": 0.6588293650793652,
+          "topical1": 0.8611111111111112,
+          "violation1": 0.4861111111111111,
+          "prefilter_hit1": 0.8472222222222222,
+          "postfilter1_hit1": 0.4722222222222222,
+          "postfilter3_hit1": 0.8194444444444444,
+          "postfilter3_empty": 0.034722222222222224
+        },
+        "numeric": {
+          "hit1": 0.3888888888888889,
+          "hit3": 0.7638888888888888,
+          "mrr": 0.5916666666666667,
+          "topical1": 0.7291666666666666,
+          "violation1": 0.4513888888888889,
+          "prefilter_hit1": 0.7291666666666666,
+          "postfilter1_hit1": 0.3888888888888889,
+          "postfilter3_hit1": 0.6666666666666666,
+          "postfilter3_empty": 0.0763888888888889
+        },
+        "role_binding": {
+          "hit1": 0.2708333333333333,
+          "hit3": 0.6527777777777778,
+          "mrr": 0.5027033730158731,
+          "topical1": 0.75,
+          "violation1": 0.5902777777777778,
+          "prefilter_hit1": 0.75,
+          "postfilter1_hit1": 0.2708333333333333,
+          "postfilter3_hit1": 0.625,
+          "postfilter3_empty": 0.1527777777777778
+        },
+        "temporal": {
+          "hit1": 0.3333333333333333,
+          "hit3": 0.5902777777777778,
+          "mrr": 0.5186507936507936,
+          "topical1": 0.6527777777777778,
+          "violation1": 0.4791666666666667,
+          "prefilter_hit1": 0.6458333333333334,
+          "postfilter1_hit1": 0.3333333333333333,
+          "postfilter3_hit1": 0.5416666666666666,
+          "postfilter3_empty": 0.1875
+        },
+        "version": {
+          "hit1": 0.6180555555555556,
+          "hit3": 0.9097222222222222,
+          "mrr": 0.7491402116402116,
+          "topical1": 0.7777777777777778,
+          "violation1": 0.1597222222222222,
+          "prefilter_hit1": 0.7638888888888888,
+          "postfilter1_hit1": 0.6180555555555556,
+          "postfilter3_hit1": 0.7430555555555556,
+          "postfilter3_empty": 0.027777777777777776
+        }
+      },
+      "style": {
+        "fields": {
+          "hit1": 0.4050925925925926,
+          "hit3": 0.7106481481481481,
+          "mrr": 0.584278549382716,
+          "topical1": 0.7754629629629629,
+          "violation1": 0.4722222222222222,
+          "prefilter_hit1": 0.7569444444444444,
+          "postfilter1_hit1": 0.4050925925925926,
+          "postfilter3_hit1": 0.6527777777777778,
+          "postfilter3_empty": 0.1574074074074074
+        },
+        "prose": {
+          "hit1": 0.40046296296296297,
+          "hit3": 0.7337962962962963,
+          "mrr": 0.5966655643738976,
+          "topical1": 0.75,
+          "violation1": 0.4537037037037037,
+          "prefilter_hit1": 0.7453703703703703,
+          "postfilter1_hit1": 0.40046296296296297,
+          "postfilter3_hit1": 0.6574074074074074,
+          "postfilter3_empty": 0.125
+        }
+      },
+      "phrasing": {
+        "0": {
+          "hit1": 0.4027777777777778,
+          "hit3": 0.7534722222222222,
+          "mrr": 0.5975983796296296,
+          "topical1": 0.7673611111111112,
+          "violation1": 0.46875,
+          "prefilter_hit1": 0.7604166666666666,
+          "postfilter1_hit1": 0.4027777777777778,
+          "postfilter3_hit1": 0.6666666666666666,
+          "postfilter3_empty": 0.13194444444444445
+        },
+        "1": {
+          "hit1": 0.4166666666666667,
+          "hit3": 0.7291666666666666,
+          "mrr": 0.6027323082010582,
+          "topical1": 0.8090277777777778,
+          "violation1": 0.4965277777777778,
+          "prefilter_hit1": 0.7951388888888888,
+          "postfilter1_hit1": 0.4166666666666667,
+          "postfilter3_hit1": 0.7013888888888888,
+          "postfilter3_empty": 0.1423611111111111
+        },
+        "2": {
+          "hit1": 0.3888888888888889,
+          "hit3": 0.6840277777777778,
+          "mrr": 0.5710854828042328,
+          "topical1": 0.7118055555555556,
+          "violation1": 0.4236111111111111,
+          "prefilter_hit1": 0.6979166666666666,
+          "postfilter1_hit1": 0.3888888888888889,
+          "postfilter3_hit1": 0.5972222222222222,
+          "postfilter3_empty": 0.14930555555555555
+        }
+      },
+      "polarity": {
+        "0": {
+          "hit1": 0.30324074074074076,
+          "hit3": 0.6319444444444444,
+          "mrr": 0.5080109126984127,
+          "topical1": 0.7407407407407407,
+          "violation1": 0.5578703703703703,
+          "prefilter_hit1": 0.7175925925925926,
+          "postfilter1_hit1": 0.30324074074074076,
+          "postfilter3_hit1": 0.5671296296296297,
+          "postfilter3_empty": 0.2199074074074074
+        },
+        "1": {
+          "hit1": 0.5023148148148148,
+          "hit3": 0.8125,
+          "mrr": 0.6729332010582011,
+          "topical1": 0.7847222222222222,
+          "violation1": 0.3680555555555556,
+          "prefilter_hit1": 0.7847222222222222,
+          "postfilter1_hit1": 0.5023148148148148,
+          "postfilter3_hit1": 0.7430555555555556,
+          "postfilter3_empty": 0.0625
+        }
+      }
+    },
+    "world_bootstrap_95ci": {
+      "hit1": [
+        0.35185185185185186,
+        0.4548900462962962
+      ],
+      "hit3": [
+        0.6527777777777778,
+        0.7824074074074074
+      ],
+      "mrr": [
+        0.5442688354276896,
+        0.6343724165013228
+      ],
+      "topical1": [
+        0.6712673611111111,
+        0.8414351851851852
+      ],
+      "violation1": [
+        0.43402777777777773,
+        0.4953993055555555
+      ],
+      "prefilter_hit1": [
+        0.6620081018518518,
+        0.8287037037037037
+      ],
+      "postfilter1_hit1": [
+        0.35185185185185186,
+        0.4548900462962962
+      ],
+      "postfilter3_hit1": [
+        0.579861111111111,
+        0.7245370370370371
+      ],
+      "postfilter3_empty": [
+        0.12152777777777778,
+        0.16087962962962965
+      ]
+    }
+  },
+  "ovis-512": {
+    "constraint": {
+      "hit1": 0.4201388888888889,
+      "hit3": 0.7407407407407407,
+      "mrr": 0.6066082451499119,
+      "topical1": 0.7870370370370371,
+      "violation1": 0.4652777777777778,
+      "prefilter_hit1": 0.7685185185185185,
+      "postfilter1_hit1": 0.4201388888888889,
+      "postfilter3_hit1": 0.6817129629629629,
+      "postfilter3_empty": 0.1261574074074074,
+      "n": 864
+    },
+    "control": {
+      "hit1": 0.5347222222222222,
+      "hit3": 0.6666666666666666,
+      "mrr": 0.6545138888888888,
+      "topical1": 0.5347222222222222,
+      "violation1": 0.0,
+      "prefilter_hit1": 0.5347222222222222,
+      "postfilter1_hit1": 0.5347222222222222,
+      "postfilter3_hit1": 0.5347222222222222,
+      "postfilter3_empty": 0.0,
+      "n": 144
+    },
+    "paired_variant_success": 0.1574074074074074,
+    "failure_margins": {
+      "n": 501,
+      "median": 0.03459233045578003,
+      "over_0.01": 391,
+      "ties": 0
+    },
+    "breakdowns": {
+      "family": {
+        "conjunction": {
+          "hit1": 0.3611111111111111,
+          "hit3": 0.5694444444444444,
+          "mrr": 0.533573082010582,
+          "topical1": 0.8194444444444444,
+          "violation1": 0.5694444444444444,
+          "prefilter_hit1": 0.7430555555555556,
+          "postfilter1_hit1": 0.3611111111111111,
+          "postfilter3_hit1": 0.5138888888888888,
+          "postfilter3_empty": 0.3888888888888889
+        },
+        "negation": {
+          "hit1": 0.4722222222222222,
+          "hit3": 0.8541666666666666,
+          "mrr": 0.6648974867724867,
+          "topical1": 0.8611111111111112,
+          "violation1": 0.4791666666666667,
+          "prefilter_hit1": 0.8472222222222222,
+          "postfilter1_hit1": 0.4722222222222222,
+          "postfilter3_hit1": 0.8263888888888888,
+          "postfilter3_empty": 0.020833333333333332
+        },
+        "numeric": {
+          "hit1": 0.3611111111111111,
+          "hit3": 0.7916666666666666,
+          "mrr": 0.5865410052910054,
+          "topical1": 0.7361111111111112,
+          "violation1": 0.4930555555555556,
+          "prefilter_hit1": 0.75,
+          "postfilter1_hit1": 0.3611111111111111,
+          "postfilter3_hit1": 0.6875,
+          "postfilter3_empty": 0.0763888888888889
+        },
+        "role_binding": {
+          "hit1": 0.2847222222222222,
+          "hit3": 0.6944444444444444,
+          "mrr": 0.523139880952381,
+          "topical1": 0.7708333333333334,
+          "violation1": 0.6111111111111112,
+          "prefilter_hit1": 0.7708333333333334,
+          "postfilter1_hit1": 0.2847222222222222,
+          "postfilter3_hit1": 0.6736111111111112,
+          "postfilter3_empty": 0.11805555555555555
+        },
+        "temporal": {
+          "hit1": 0.3958333333333333,
+          "hit3": 0.6458333333333334,
+          "mrr": 0.5698743386243386,
+          "topical1": 0.7222222222222222,
+          "violation1": 0.4722222222222222,
+          "prefilter_hit1": 0.7013888888888888,
+          "postfilter1_hit1": 0.3958333333333333,
+          "postfilter3_hit1": 0.6180555555555556,
+          "postfilter3_empty": 0.11805555555555555
+        },
+        "version": {
+          "hit1": 0.6458333333333334,
+          "hit3": 0.8888888888888888,
+          "mrr": 0.7616236772486773,
+          "topical1": 0.8125,
+          "violation1": 0.16666666666666666,
+          "prefilter_hit1": 0.7986111111111112,
+          "postfilter1_hit1": 0.6458333333333334,
+          "postfilter3_hit1": 0.7708333333333334,
+          "postfilter3_empty": 0.034722222222222224
+        }
+      },
+      "style": {
+        "fields": {
+          "hit1": 0.40046296296296297,
+          "hit3": 0.7222222222222222,
+          "mrr": 0.5891837522045855,
+          "topical1": 0.7824074074074074,
+          "violation1": 0.4930555555555556,
+          "prefilter_hit1": 0.7592592592592593,
+          "postfilter1_hit1": 0.40046296296296297,
+          "postfilter3_hit1": 0.6689814814814815,
+          "postfilter3_empty": 0.1388888888888889
+        },
+        "prose": {
+          "hit1": 0.4398148148148148,
+          "hit3": 0.7592592592592593,
+          "mrr": 0.6240327380952382,
+          "topical1": 0.7916666666666666,
+          "violation1": 0.4375,
+          "prefilter_hit1": 0.7777777777777778,
+          "postfilter1_hit1": 0.4398148148148148,
+          "postfilter3_hit1": 0.6944444444444444,
+          "postfilter3_empty": 0.11342592592592593
+        }
+      },
+      "phrasing": {
+        "0": {
+          "hit1": 0.3958333333333333,
+          "hit3": 0.7361111111111112,
+          "mrr": 0.5920965608465608,
+          "topical1": 0.7604166666666666,
+          "violation1": 0.46875,
+          "prefilter_hit1": 0.7430555555555556,
+          "postfilter1_hit1": 0.3958333333333333,
+          "postfilter3_hit1": 0.6597222222222222,
+          "postfilter3_empty": 0.11805555555555555
+        },
+        "1": {
+          "hit1": 0.4548611111111111,
+          "hit3": 0.7777777777777778,
+          "mrr": 0.6392030423280423,
+          "topical1": 0.8576388888888888,
+          "violation1": 0.5034722222222222,
+          "prefilter_hit1": 0.8368055555555556,
+          "postfilter1_hit1": 0.4548611111111111,
+          "postfilter3_hit1": 0.75,
+          "postfilter3_empty": 0.1284722222222222
+        },
+        "2": {
+          "hit1": 0.4097222222222222,
+          "hit3": 0.7083333333333334,
+          "mrr": 0.5885251322751324,
+          "topical1": 0.7430555555555556,
+          "violation1": 0.4236111111111111,
+          "prefilter_hit1": 0.7256944444444444,
+          "postfilter1_hit1": 0.4097222222222222,
+          "postfilter3_hit1": 0.6354166666666666,
+          "postfilter3_empty": 0.13194444444444445
+        }
+      },
+      "polarity": {
+        "0": {
+          "hit1": 0.3148148148148148,
+          "hit3": 0.6342592592592593,
+          "mrr": 0.5169146825396825,
+          "topical1": 0.7592592592592593,
+          "violation1": 0.5578703703703703,
+          "prefilter_hit1": 0.7199074074074074,
+          "postfilter1_hit1": 0.3148148148148148,
+          "postfilter3_hit1": 0.5740740740740741,
+          "postfilter3_empty": 0.21296296296296297
+        },
+        "1": {
+          "hit1": 0.5254629629629629,
+          "hit3": 0.8472222222222222,
+          "mrr": 0.6963018077601411,
+          "topical1": 0.8148148148148148,
+          "violation1": 0.3726851851851852,
+          "prefilter_hit1": 0.8171296296296297,
+          "postfilter1_hit1": 0.5254629629629629,
+          "postfilter3_hit1": 0.7893518518518519,
+          "postfilter3_empty": 0.03935185185185185
+        }
+      }
+    },
+    "world_bootstrap_95ci": {
+      "hit1": [
+        0.3680555555555556,
+        0.4710937499999999
+      ],
+      "hit3": [
+        0.6724537037037037,
+        0.7974826388888887
+      ],
+      "mrr": [
+        0.5601140184082892,
+        0.6503941385582009
+      ],
+      "topical1": [
+        0.6863136574074074,
+        0.8692129629629629
+      ],
+      "violation1": [
+        0.43402777777777773,
+        0.49652777777777773
+      ],
+      "prefilter_hit1": [
+        0.6747685185185186,
+        0.8506944444444443
+      ],
+      "postfilter1_hit1": [
+        0.3680555555555556,
+        0.4710937499999999
+      ],
+      "postfilter3_hit1": [
+        0.6076388888888888,
+        0.7511574074074074
+      ],
+      "postfilter3_empty": [
+        0.1076388888888889,
+        0.14467592592592593
+      ]
+    }
+  },
+  "ovis-256": {
+    "constraint": {
+      "hit1": 0.41550925925925924,
+      "hit3": 0.7430555555555556,
+      "mrr": 0.6048707561728395,
+      "topical1": 0.7858796296296297,
+      "violation1": 0.4756944444444444,
+      "prefilter_hit1": 0.7835648148148148,
+      "postfilter1_hit1": 0.41550925925925924,
+      "postfilter3_hit1": 0.6956018518518519,
+      "postfilter3_empty": 0.1261574074074074,
+      "n": 864
+    },
+    "control": {
+      "hit1": 0.5347222222222222,
+      "hit3": 0.6527777777777778,
+      "mrr": 0.6535879629629631,
+      "topical1": 0.5347222222222222,
+      "violation1": 0.0,
+      "prefilter_hit1": 0.5347222222222222,
+      "postfilter1_hit1": 0.5347222222222222,
+      "postfilter3_hit1": 0.5347222222222222,
+      "postfilter3_empty": 0.0,
+      "n": 144
+    },
+    "paired_variant_success": 0.16203703703703703,
+    "failure_margins": {
+      "n": 505,
+      "median": 0.03400370478630066,
+      "over_0.01": 400,
+      "ties": 0
+    },
+    "breakdowns": {
+      "family": {
+        "conjunction": {
+          "hit1": 0.3472222222222222,
+          "hit3": 0.5694444444444444,
+          "mrr": 0.5249090608465609,
+          "topical1": 0.7777777777777778,
+          "violation1": 0.5694444444444444,
+          "prefilter_hit1": 0.75,
+          "postfilter1_hit1": 0.3472222222222222,
+          "postfilter3_hit1": 0.5138888888888888,
+          "postfilter3_empty": 0.375
+        },
+        "negation": {
+          "hit1": 0.4861111111111111,
+          "hit3": 0.8333333333333334,
+          "mrr": 0.6692791005291006,
+          "topical1": 0.8472222222222222,
+          "violation1": 0.4722222222222222,
+          "prefilter_hit1": 0.8472222222222222,
+          "postfilter1_hit1": 0.4861111111111111,
+          "postfilter3_hit1": 0.8125,
+          "postfilter3_empty": 0.034722222222222224
+        },
+        "numeric": {
+          "hit1": 0.3958333333333333,
+          "hit3": 0.8541666666666666,
+          "mrr": 0.620056216931217,
+          "topical1": 0.7777777777777778,
+          "violation1": 0.4791666666666667,
+          "prefilter_hit1": 0.7916666666666666,
+          "postfilter1_hit1": 0.3958333333333333,
+          "postfilter3_hit1": 0.7569444444444444,
+          "postfilter3_empty": 0.05555555555555555
+        },
+        "role_binding": {
+          "hit1": 0.25,
+          "hit3": 0.6736111111111112,
+          "mrr": 0.4904513888888889,
+          "topical1": 0.7708333333333334,
+          "violation1": 0.6597222222222222,
+          "prefilter_hit1": 0.7708333333333334,
+          "postfilter1_hit1": 0.25,
+          "postfilter3_hit1": 0.6527777777777778,
+          "postfilter3_empty": 0.14583333333333334
+        },
+        "temporal": {
+          "hit1": 0.3333333333333333,
+          "hit3": 0.6388888888888888,
+          "mrr": 0.5405175264550265,
+          "topical1": 0.6944444444444444,
+          "violation1": 0.5069444444444444,
+          "prefilter_hit1": 0.7083333333333334,
+          "postfilter1_hit1": 0.3333333333333333,
+          "postfilter3_hit1": 0.6180555555555556,
+          "postfilter3_empty": 0.125
+        },
+        "version": {
+          "hit1": 0.6805555555555556,
+          "hit3": 0.8888888888888888,
+          "mrr": 0.7840112433862435,
+          "topical1": 0.8472222222222222,
+          "violation1": 0.16666666666666666,
+          "prefilter_hit1": 0.8333333333333334,
+          "postfilter1_hit1": 0.6805555555555556,
+          "postfilter3_hit1": 0.8194444444444444,
+          "postfilter3_empty": 0.020833333333333332
+        }
+      },
+      "style": {
+        "fields": {
+          "hit1": 0.3958333333333333,
+          "hit3": 0.7245370370370371,
+          "mrr": 0.5878747795414462,
+          "topical1": 0.7847222222222222,
+          "violation1": 0.5046296296296297,
+          "prefilter_hit1": 0.7824074074074074,
+          "postfilter1_hit1": 0.3958333333333333,
+          "postfilter3_hit1": 0.6828703703703703,
+          "postfilter3_empty": 0.1412037037037037
+        },
+        "prose": {
+          "hit1": 0.4351851851851852,
+          "hit3": 0.7615740740740741,
+          "mrr": 0.6218667328042329,
+          "topical1": 0.7870370370370371,
+          "violation1": 0.44675925925925924,
+          "prefilter_hit1": 0.7847222222222222,
+          "postfilter1_hit1": 0.4351851851851852,
+          "postfilter3_hit1": 0.7083333333333334,
+          "postfilter3_empty": 0.1111111111111111
+        }
+      },
+      "phrasing": {
+        "0": {
+          "hit1": 0.4097222222222222,
+          "hit3": 0.7361111111111112,
+          "mrr": 0.5996941137566137,
+          "topical1": 0.7708333333333334,
+          "violation1": 0.46875,
+          "prefilter_hit1": 0.7708333333333334,
+          "postfilter1_hit1": 0.4097222222222222,
+          "postfilter3_hit1": 0.6736111111111112,
+          "postfilter3_empty": 0.13194444444444445
+        },
+        "1": {
+          "hit1": 0.4513888888888889,
+          "hit3": 0.8055555555555556,
+          "mrr": 0.6429852843915344,
+          "topical1": 0.8472222222222222,
+          "violation1": 0.4965277777777778,
+          "prefilter_hit1": 0.8472222222222222,
+          "postfilter1_hit1": 0.4513888888888889,
+          "postfilter3_hit1": 0.7708333333333334,
+          "postfilter3_empty": 0.1111111111111111
+        },
+        "2": {
+          "hit1": 0.3854166666666667,
+          "hit3": 0.6875,
+          "mrr": 0.5719328703703703,
+          "topical1": 0.7395833333333334,
+          "violation1": 0.4618055555555556,
+          "prefilter_hit1": 0.7326388888888888,
+          "postfilter1_hit1": 0.3854166666666667,
+          "postfilter3_hit1": 0.6423611111111112,
+          "postfilter3_empty": 0.13541666666666666
+        }
+      },
+      "polarity": {
+        "0": {
+          "hit1": 0.2962962962962963,
+          "hit3": 0.6504629629629629,
+          "mrr": 0.5088734567901234,
+          "topical1": 0.75,
+          "violation1": 0.5925925925925926,
+          "prefilter_hit1": 0.7361111111111112,
+          "postfilter1_hit1": 0.2962962962962963,
+          "postfilter3_hit1": 0.5995370370370371,
+          "postfilter3_empty": 0.2013888888888889
+        },
+        "1": {
+          "hit1": 0.5347222222222222,
+          "hit3": 0.8356481481481481,
+          "mrr": 0.7008680555555555,
+          "topical1": 0.8217592592592593,
+          "violation1": 0.3587962962962963,
+          "prefilter_hit1": 0.8310185185185185,
+          "postfilter1_hit1": 0.5347222222222222,
+          "postfilter3_hit1": 0.7916666666666666,
+          "postfilter3_empty": 0.05092592592592592
+        }
+      }
+    },
+    "world_bootstrap_95ci": {
+      "hit1": [
+        0.36574074074074076,
+        0.4618055555555555
+      ],
+      "hit3": [
+        0.6805555555555557,
+        0.7962962962962963
+      ],
+      "mrr": [
+        0.5617481674382716,
+        0.6458315076609348
+      ],
+      "topical1": [
+        0.6921296296296297,
+        0.8657696759259258
+      ],
+      "violation1": [
+        0.4513888888888889,
+        0.49999999999999994
+      ],
+      "prefilter_hit1": [
+        0.6990162037037037,
+        0.8576388888888888
+      ],
+      "postfilter1_hit1": [
+        0.36574074074074076,
+        0.4618055555555555
+      ],
+      "postfilter3_hit1": [
+        0.6261574074074074,
+        0.7581018518518517
+      ],
+      "postfilter3_empty": [
+        0.10532407407407411,
+        0.14583333333333334
+      ]
+    }
+  },
+  "ovis-128": {
+    "constraint": {
+      "hit1": 0.4027777777777778,
+      "hit3": 0.7372685185185185,
+      "mrr": 0.5939153439153441,
+      "topical1": 0.78125,
+      "violation1": 0.4837962962962963,
+      "prefilter_hit1": 0.7708333333333334,
+      "postfilter1_hit1": 0.4027777777777778,
+      "postfilter3_hit1": 0.6863425925925926,
+      "postfilter3_empty": 0.13194444444444445,
+      "n": 864
+    },
+    "control": {
+      "hit1": 0.4236111111111111,
+      "hit3": 0.6388888888888888,
+      "mrr": 0.5841435185185185,
+      "topical1": 0.4236111111111111,
+      "violation1": 0.0,
+      "prefilter_hit1": 0.4236111111111111,
+      "postfilter1_hit1": 0.4236111111111111,
+      "postfilter3_hit1": 0.4236111111111111,
+      "postfilter3_empty": 0.0,
+      "n": 144
+    },
+    "paired_variant_success": 0.13657407407407407,
+    "failure_margins": {
+      "n": 516,
+      "median": 0.04481495916843414,
+      "over_0.01": 415,
+      "ties": 0
+    },
+    "breakdowns": {
+      "family": {
+        "conjunction": {
+          "hit1": 0.3472222222222222,
+          "hit3": 0.5625,
+          "mrr": 0.5188161375661376,
+          "topical1": 0.7638888888888888,
+          "violation1": 0.5902777777777778,
+          "prefilter_hit1": 0.7430555555555556,
+          "postfilter1_hit1": 0.3472222222222222,
+          "postfilter3_hit1": 0.5347222222222222,
+          "postfilter3_empty": 0.3472222222222222
+        },
+        "negation": {
+          "hit1": 0.4791666666666667,
+          "hit3": 0.8194444444444444,
+          "mrr": 0.656332671957672,
+          "topical1": 0.8680555555555556,
+          "violation1": 0.4652777777777778,
+          "prefilter_hit1": 0.8333333333333334,
+          "postfilter1_hit1": 0.4791666666666667,
+          "postfilter3_hit1": 0.7847222222222222,
+          "postfilter3_empty": 0.0763888888888889
+        },
+        "numeric": {
+          "hit1": 0.4097222222222222,
+          "hit3": 0.8194444444444444,
+          "mrr": 0.6206349206349207,
+          "topical1": 0.7847222222222222,
+          "violation1": 0.4583333333333333,
+          "prefilter_hit1": 0.7847222222222222,
+          "postfilter1_hit1": 0.4097222222222222,
+          "postfilter3_hit1": 0.7361111111111112,
+          "postfilter3_empty": 0.0763888888888889
+        },
+        "role_binding": {
+          "hit1": 0.2361111111111111,
+          "hit3": 0.6666666666666666,
+          "mrr": 0.4837962962962962,
+          "topical1": 0.7638888888888888,
+          "violation1": 0.7013888888888888,
+          "prefilter_hit1": 0.7777777777777778,
+          "postfilter1_hit1": 0.2361111111111111,
+          "postfilter3_hit1": 0.6527777777777778,
+          "postfilter3_empty": 0.16666666666666666
+        },
+        "temporal": {
+          "hit1": 0.3125,
+          "hit3": 0.6458333333333334,
+          "mrr": 0.5229332010582011,
+          "topical1": 0.6527777777777778,
+          "violation1": 0.4652777777777778,
+          "prefilter_hit1": 0.6597222222222222,
+          "postfilter1_hit1": 0.3125,
+          "postfilter3_hit1": 0.5902777777777778,
+          "postfilter3_empty": 0.1111111111111111
+        },
+        "version": {
+          "hit1": 0.6319444444444444,
+          "hit3": 0.9097222222222222,
+          "mrr": 0.7609788359788359,
+          "topical1": 0.8541666666666666,
+          "violation1": 0.2222222222222222,
+          "prefilter_hit1": 0.8263888888888888,
+          "postfilter1_hit1": 0.6319444444444444,
+          "postfilter3_hit1": 0.8194444444444444,
+          "postfilter3_empty": 0.013888888888888888
+        }
+      },
+      "style": {
+        "fields": {
+          "hit1": 0.4074074074074074,
+          "hit3": 0.7268518518518519,
+          "mrr": 0.5911210317460317,
+          "topical1": 0.7986111111111112,
+          "violation1": 0.49537037037037035,
+          "prefilter_hit1": 0.7800925925925926,
+          "postfilter1_hit1": 0.4074074074074074,
+          "postfilter3_hit1": 0.6898148148148148,
+          "postfilter3_empty": 0.13657407407407407
+        },
+        "prose": {
+          "hit1": 0.39814814814814814,
+          "hit3": 0.7476851851851852,
+          "mrr": 0.5967096560846561,
+          "topical1": 0.7638888888888888,
+          "violation1": 0.4722222222222222,
+          "prefilter_hit1": 0.7615740740740741,
+          "postfilter1_hit1": 0.39814814814814814,
+          "postfilter3_hit1": 0.6828703703703703,
+          "postfilter3_empty": 0.12731481481481483
+        }
+      },
+      "phrasing": {
+        "0": {
+          "hit1": 0.3680555555555556,
+          "hit3": 0.7222222222222222,
+          "mrr": 0.5681051587301587,
+          "topical1": 0.7395833333333334,
+          "violation1": 0.4930555555555556,
+          "prefilter_hit1": 0.7326388888888888,
+          "postfilter1_hit1": 0.3680555555555556,
+          "postfilter3_hit1": 0.6319444444444444,
+          "postfilter3_empty": 0.14583333333333334
+        },
+        "1": {
+          "hit1": 0.4409722222222222,
+          "hit3": 0.7951388888888888,
+          "mrr": 0.629472552910053,
+          "topical1": 0.8541666666666666,
+          "violation1": 0.5,
+          "prefilter_hit1": 0.8298611111111112,
+          "postfilter1_hit1": 0.4409722222222222,
+          "postfilter3_hit1": 0.78125,
+          "postfilter3_empty": 0.1076388888888889
+        },
+        "2": {
+          "hit1": 0.3993055555555556,
+          "hit3": 0.6944444444444444,
+          "mrr": 0.5841683201058202,
+          "topical1": 0.75,
+          "violation1": 0.4583333333333333,
+          "prefilter_hit1": 0.75,
+          "postfilter1_hit1": 0.3993055555555556,
+          "postfilter3_hit1": 0.6458333333333334,
+          "postfilter3_empty": 0.1423611111111111
+        }
+      },
+      "polarity": {
+        "0": {
+          "hit1": 0.2800925925925926,
+          "hit3": 0.6481481481481481,
+          "mrr": 0.4968226410934744,
+          "topical1": 0.7523148148148148,
+          "violation1": 0.5902777777777778,
+          "prefilter_hit1": 0.7199074074074074,
+          "postfilter1_hit1": 0.2800925925925926,
+          "postfilter3_hit1": 0.5902777777777778,
+          "postfilter3_empty": 0.21296296296296297
+        },
+        "1": {
+          "hit1": 0.5254629629629629,
+          "hit3": 0.8263888888888888,
+          "mrr": 0.6910080467372134,
+          "topical1": 0.8101851851851852,
+          "violation1": 0.3773148148148148,
+          "prefilter_hit1": 0.8217592592592593,
+          "postfilter1_hit1": 0.5254629629629629,
+          "postfilter3_hit1": 0.7824074074074074,
+          "postfilter3_empty": 0.05092592592592592
+        }
+      }
+    },
+    "world_bootstrap_95ci": {
+      "hit1": [
+        0.3530092592592593,
+        0.4502314814814814
+      ],
+      "hit3": [
+        0.6782118055555556,
+        0.7870370370370371
+      ],
+      "mrr": [
+        0.5522853629298942,
+        0.6308420483355379
+      ],
+      "topical1": [
+        0.6863425925925927,
+        0.8541666666666666
+      ],
+      "violation1": [
+        0.449074074074074,
+        0.5208333333333333
+      ],
+      "prefilter_hit1": [
+        0.6805555555555555,
+        0.8426215277777775
+      ],
+      "postfilter1_hit1": [
+        0.3530092592592593,
+        0.4502314814814814
+      ],
+      "postfilter3_hit1": [
+        0.6122685185185185,
+        0.7453703703703703
+      ],
+      "postfilter3_empty": [
+        0.11574074074074074,
+        0.14930555555555555
+      ]
+    }
+  }
+}

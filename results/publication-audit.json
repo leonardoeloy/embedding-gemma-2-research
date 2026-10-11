@@ -1,0 +1,58 @@
+{
+  "checks": [
+    {
+      "run": "results/gemma",
+      "vectors_and_executed_source_verified": true,
+      "device": "xpu:0",
+      "parameter_devices": [
+        "xpu:0"
+      ]
+    },
+    {
+      "run": "results/wemm",
+      "vectors_and_executed_source_verified": true,
+      "device": "xpu:0",
+      "parameter_devices": [
+        "xpu:0"
+      ]
+    },
+    {
+      "run": "results/ovis",
+      "vectors_and_executed_source_verified": true,
+      "device": "xpu:0",
+      "parameter_devices": [
+        "xpu:0"
+      ]
+    },
+    {
+      "run": "results/nevir/gemma",
+      "vectors_and_executed_source_verified": true,
+      "device": "xpu:0",
+      "parameter_devices": [
+        "xpu:0"
+      ]
+    },
+    {
+      "run": "results/nevir/wemm",
+      "vectors_and_executed_source_verified": true,
+      "device": "xpu:0",
+      "parameter_devices": [
+        "xpu:0"
+      ]
+    },
+    {
+      "run": "results/nevir/ovis",
+      "vectors_and_executed_source_verified": true,
+      "device": "xpu:0",
+      "parameter_devices": [
+        "xpu:0"
+      ]
+    }
+  ],
+  "remote_results_checksum_comparison": "rsync -rcn returned no differences before publication-audit.json was created",
+  "figures_visually_reviewed": [
+    "constraint-gap.png",
+    "families.png",
+    "dimensions.png"
+  ]
+}

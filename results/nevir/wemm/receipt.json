@@ -1,0 +1,175 @@
+{
+  "status": "complete",
+  "model": "wemm",
+  "source": {
+    "repo": "tencent/WeMM-Embedding-2B",
+    "revision": "bbd6cd4bf52cfc6716f752a2df80b2706720bd95",
+    "created_at": "2026-08-25 03:10:05+00:00",
+    "last_modified": "2026-09-03 12:23:16+00:00",
+    "gated": false,
+    "card": {
+      "base_model": [
+        "Qwen/Qwen3.5-2B"
+      ],
+      "language": [
+        "zh",
+        "en"
+      ],
+      "library_name": "transformers",
+      "license": "other",
+      "license_name": "apache-2.0",
+      "license_link": "https://huggingface.co/tencent/WeMM-Embedding-2B/blob/main/LICENSE",
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "sentence-transformers",
+        "multimodal-embedding",
+        "text-embedding",
+        "image-embedding",
+        "video-embedding",
+        "mrl"
+      ]
+    },
+    "files": [
+      {
+        "name": ".gitattributes",
+        "size": 50
+      },
+      {
+        "name": "LICENSE",
+        "size": 24546
+      },
+      {
+        "name": "README.md",
+        "size": 7993
+      },
+      {
+        "name": "additional_chat_templates/sentence_transformers.jinja",
+        "size": 1452
+      },
+      {
+        "name": "chat_template.jinja",
+        "size": 7755
+      },
+      {
+        "name": "config.json",
+        "size": 2853
+      },
+      {
+        "name": "config_sentence_transformers.json",
+        "size": 245
+      },
+      {
+        "name": "embedding_chat_template.jinja",
+        "size": 1086
+      },
+      {
+        "name": "model.safetensors",
+        "size": 5441695216
+      },
+      {
+        "name": "modeling_st_wemm.py",
+        "size": 3180
+      },
+      {
+        "name": "modeling_wemm_embedding.py",
+        "size": 1205
+      },
+      {
+        "name": "modules.json",
+        "size": 106
+      },
+      {
+        "name": "patch_sglang_video.py",
+        "size": 1983
+      },
+      {
+        "name": "processor_config.json",
+        "size": 1192
+      },
+      {
+        "name": "sentence_bert_config.json",
+        "size": 950
+      },
+      {
+        "name": "tokenizer.json",
+        "size": 19990378
+      },
+      {
+        "name": "tokenizer_config.json",
+        "size": 1148
+      }
+    ]
+  },
+  "device": "xpu:0",
+  "affinity": "0",
+  "torch": "2.8.0+xpu",
+  "packages": {
+    "transformers": "5.19.0",
+    "sentence-transformers": "6.1.0",
+    "huggingface-hub": "1.33.0",
+    "numpy": "2.5.2"
+  },
+  "host": "darkstar",
+  "dataset": {
+    "source": "orionweller/NevIR",
+    "revision": "6263585072ce3b435ed09658613553fbf4e74184",
+    "split": "test",
+    "source_sha256": "5eb79ec32e82ff17ef6c2f47b75baca182013053ed74672d426bbc338af05d67",
+    "license": "MIT (source dataset card)",
+    "pairs": 1383,
+    "documents": 2766,
+    "queries": 2766,
+    "sha256": {
+      "queries.jsonl": "af298bdb80f0eb958ba93d9f8c34ad0844802057d194fca808e04f1d1fec8f16",
+      "documents.jsonl": "ab4343943560dad4186f9415fc255a6993f766c3f0b56bfdbc505ed115f389fc"
+    }
+  },
+  "script_sha256": "214abd444d4f9c2d229e179b358f8316bccef48a871abef447b2663af0aa5547",
+  "protocol_sha256": "8eab33b3d5de9c700b2ae13463910fd12a631f70a19bdef20d96072d979a901f",
+  "batch_size": 8,
+  "model_weight_files": {
+    "model.safetensors": "e1a1ad752808c26965aa97d37bf4a9bca71d838513f41e83790cb1e71cac6e59"
+  },
+  "supported_dimensions": [
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "prompts": {
+    "query": "",
+    "document": ""
+  },
+  "module_configuration": "SentenceTransformer(\n  (0): Transformer({'transformer_task': 'feature-extraction', 'modality_config': {'text': {'method': 'embedding', 'method_output_name': None}, 'image': {'method': 'embedding', 'method_output_name': None}, 'video': {'method': 'embedding', 'method_output_name': None}, 'image+text': {'method': 'embedding', 'method_output_name': None}, 'text+video': {'method': 'embedding', 'method_output_name': None}, 'message': {'method': 'embedding', 'method_output_name': None, 'format': 'structured'}}, 'module_output_name': 'sentence_embedding', 'processing_kwargs': {'chat_template': {'chat_template': 'sentence_transformers'}}, 'unpad_inputs': False, 'architecture': 'WeMMEmbedding'})\n)",
+  "parameter_devices": [
+    "xpu:0"
+  ],
+  "parameter_dtypes": [
+    "torch.bfloat16"
+  ],
+  "loaded_parameters": 2720809792,
+  "max_input_tokens": 305,
+  "documents": {
+    "shape": [
+      2766,
+      2048
+    ],
+    "sha256": "98f1c68c0041138909d4e8b684e0144eff453febbf77a18d7125ef13c603f392",
+    "norm_min": 0.9999998807907104,
+    "norm_max": 1.0000001192092896
+  },
+  "queries": {
+    "shape": [
+      2766,
+      2048
+    ],
+    "sha256": "12ea404683ff3dfc05913d9d0a99bc28aa3c676ca46f2574552409e75e86a1f1",
+    "norm_min": 0.9999998807907104,
+    "norm_max": 1.0000001192092896
+  },
+  "seconds": 162.31446647644043,
+  "peak_allocated_bytes": 5968424960,
+  "completed_at": "2026-10-11T20:52:32Z"
+}
